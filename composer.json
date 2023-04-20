@@ -26,7 +26,7 @@
         "php": ">=8.0.19",
         "figuren-theater/ft-admin-ui": "^1.0",
         "figuren-theater/ft-core": "^1",
-        "figuren-theater/ft-data": "^1.0.24",
+        "figuren-theater/ft-data": "^1.0",
         "figuren-theater/ft-theming": "^1.0",
         "johnpbloch/wordpress": "^6.1.1"
     }
