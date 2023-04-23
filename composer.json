@@ -1,6 +1,6 @@
 {
-    "name": "figuren-theater/ft-platform-curation",
-    "description": "figuren.theater platform curation",
+    "name": "figuren-theater/ft-platform-collection",
+    "description": "figuren.theater platform collection",
     "type": "metapackage",
     "homepage": "https://websites.fuer.figuren.theater",
     "keywords": ["wordpress", "multisite"],
@@ -24,6 +24,7 @@
     },
     "require": {
         "php": ">=8.0.19",
+        "figuren-theater/deprecated__Figuren_Theater__v2": "*",
         "figuren-theater/ft-admin-ui": "^1.0",
         "figuren-theater/ft-data": "^1.0",
         "figuren-theater/ft-interactive": "^1.0",
