@@ -25,6 +25,7 @@
     "require": {
         "php": ">=8.0.19",
         "figuren-theater/deprecated__Figuren_Theater__v2": "*",
+        "figuren-theater/deprecated__plugins__v2": "*",
         "figuren-theater/ft-admin-ui": "^1.1",
         "figuren-theater/ft-data": "^1.0",
         "figuren-theater/ft-interactive": "^1.0",
