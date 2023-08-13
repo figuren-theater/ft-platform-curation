@@ -24,12 +24,12 @@
     },
     "require": {
         "php": ">=8.0.19",
-        "figuren-theater/deprecated__Figuren_Theater__v2": "*",
-        "figuren-theater/deprecated__plugins__v2": "*",
+        "figuren-theater/deprecated_figuren_theater_v2": "*",
+        "figuren-theater/deprecated_plugins_v2": "*",
         "figuren-theater/ft-admin-ui": "^1.1",
         "figuren-theater/ft-data": "^1.0",
         "figuren-theater/ft-interactive": "^1.0",
-        "figuren-theater/ft-maintenance": "^1.0",
+        "figuren-theater/ft-maintenance": "^1.1",
         "figuren-theater/ft-media": "^1.0",
         "figuren-theater/ft-onboarding": "^1.3",
         "figuren-theater/ft-options": "^1.1",
@@ -43,6 +43,6 @@
         "figuren-theater/ft-theming": "^1.0",
         "inpsyde/wp-translation-downloader": "^2.3",
         "johnpbloch/wordpress": "^6.2",
-        "figuren-theater/BLOGS": "*"
-    }
+        "figuren-theater/blogs": "*"
+    },
 }
