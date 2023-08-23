@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f745090851c6c6ec2d8c173dd1fcdc86",
+    "content-hash": "058cc7984dc3745d31a636c23f863773",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1115,11 +1115,11 @@
         },
         {
             "name": "figuren-theater/ft-onboarding",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-onboarding",
-                "reference": "880b25e163677541cfb678b866b6d22ef4a622af"
+                "reference": "5c38862f7cd8364c8ab2b4c2c7e41bbf11499f81"
             },
             "require": {
                 "figuren-theater/ft-core-block-domaincheck": "^0.1",
@@ -1129,7 +1129,7 @@
                 "stuttter/wp-multi-network": "^2.5",
                 "stuttter/wp-user-profiles": "^2.6",
                 "wpackagist-plugin/impressum": "^2.0",
-                "wpackagist-plugin/preferred-languages": "^2.0",
+                "wpackagist-plugin/preferred-languages": "1.8.0",
                 "wpackagist-plugin/wp-approve-user": "^10"
             },
             "type": "wordpress-muplugin",
@@ -1192,15 +1192,15 @@
                 "issues": "https://github.com/figuren-theater/ft-onboarding/issues",
                 "source": "https://github.com/figuren-theater/ft-onboarding"
             },
-            "time": "2023-04-25T12:25:12+00:00"
+            "time": "2023-08-22T23:05:55+00:00"
         },
         {
             "name": "figuren-theater/ft-options",
-            "version": "1.1.10",
+            "version": "1.1.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-options",
-                "reference": "6ac6d17165a472f1927fe42f891d62a79abb5765"
+                "reference": "7764df6116733212baa363483053728d38d3bf28"
             },
             "require": {
                 "markjaquith/wp-tlc-transients": "^1.0",
@@ -1240,7 +1240,7 @@
                 "issues": "https://github.com/figuren-theater/ft-options/issues",
                 "source": "https://github.com/figuren-theater/ft-options"
             },
-            "time": "2023-02-02T15:23:09+00:00"
+            "time": "2023-07-06T21:36:17+00:00"
         },
         {
             "name": "figuren-theater/ft-performance",
@@ -3751,15 +3751,15 @@
         },
         {
             "name": "wpackagist-plugin/preferred-languages",
-            "version": "2.0.1",
+            "version": "1.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/preferred-languages/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/1.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/preferred-languages.2.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/preferred-languages.1.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
