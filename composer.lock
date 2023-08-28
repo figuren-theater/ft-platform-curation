@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a17671e8bdbcecdaa2866d71574a4614",
+    "content-hash": "672def34fc772e8d687a17a7ba387a45",
     "packages": [
         {
             "name": "10up/distributor",
@@ -537,8 +537,14 @@
             "version": "1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-admin-ui",
+                "url": "https://github.com/figuren-theater/ft-admin-ui.git",
                 "reference": "cbea5bee2eba9d0b10a302eb010506b3752c9573"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/cbea5bee2eba9d0b10a302eb010506b3752c9573",
+                "reference": "cbea5bee2eba9d0b10a302eb010506b3752c9573",
+                "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "^1",
@@ -573,6 +579,7 @@
                     "inc/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -591,9 +598,9 @@
             "description": "Clean and helpful UI to make digital content editing for your figuren.theater WordPress website a friendly experience.",
             "homepage": "https://websites.fuer.figuren.theater",
             "keywords": [
-                "Admin",
                 "MP6",
-                "UI",
+                "admin",
+                "ui",
                 "widgets",
                 "wordpress"
             ],
