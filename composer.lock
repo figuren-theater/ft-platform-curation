@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8df41cabb40143f92e2338a3b4a62c2",
+    "content-hash": "cfd93d2ca42c50f5cf85e8b6a80105a7",
     "packages": [
         {
             "name": "10up/distributor",
@@ -922,16 +922,16 @@
         },
         {
             "name": "figuren-theater/ft-media",
-            "version": "1.0.15",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-media.git",
-                "reference": "fe46cb34bd046ca4dd9377e636f1c6df09c1cad7"
+                "reference": "faa083912f519fcbed69bd1cb6fe6b7e7d63f15e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/fe46cb34bd046ca4dd9377e636f1c6df09c1cad7",
-                "reference": "fe46cb34bd046ca4dd9377e636f1c6df09c1cad7",
+                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/faa083912f519fcbed69bd1cb6fe6b7e7d63f15e",
+                "reference": "faa083912f519fcbed69bd1cb6fe6b7e7d63f15e",
                 "shasum": ""
             },
             "require": {
@@ -940,6 +940,9 @@
                 "wpackagist-plugin/attachment-taxonomies": "^1",
                 "wpackagist-plugin/format-media-titles": "1.0.0",
                 "wpackagist-plugin/modern-images-wp": "^1"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "^0.6.7"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -995,7 +998,7 @@
                 "issues": "https://github.com/figuren-theater/ft-media/issues",
                 "source": "https://github.com/figuren-theater/ft-media"
             },
-            "time": "2023-03-04T04:35:53+00:00"
+            "time": "2023-08-29T13:58:34+00:00"
         },
         {
             "name": "figuren-theater/ft-network-block-editor",
