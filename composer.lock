@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "672def34fc772e8d687a17a7ba387a45",
+    "content-hash": "f8df41cabb40143f92e2338a3b4a62c2",
     "packages": [
         {
             "name": "10up/distributor",
@@ -925,8 +925,14 @@
             "version": "1.0.15",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-media",
+                "url": "https://github.com/figuren-theater/ft-media.git",
                 "reference": "fe46cb34bd046ca4dd9377e636f1c6df09c1cad7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/fe46cb34bd046ca4dd9377e636f1c6df09c1cad7",
+                "reference": "fe46cb34bd046ca4dd9377e636f1c6df09c1cad7",
+                "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "^1",
@@ -958,6 +964,7 @@
                     "inc/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -976,11 +983,11 @@
             "description": "Optimizations related to media & attachments, packed for a WordPress multisite network like figuren.theater",
             "homepage": "https://websites.fuer.figuren.theater",
             "keywords": [
+                "Webp",
                 "attachments",
                 "image compression",
                 "media",
                 "uploads",
-                "webp",
                 "wordpress"
             ],
             "support": {
