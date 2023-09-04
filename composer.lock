@@ -922,11 +922,11 @@
         },
         {
             "name": "figuren-theater/ft-media",
-            "version": "1.0.15",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-media",
-                "reference": "fe46cb34bd046ca4dd9377e636f1c6df09c1cad7"
+                "reference": "faa083912f519fcbed69bd1cb6fe6b7e7d63f15e"
             },
             "require": {
                 "figuren-theater/ft-options": "^1",
@@ -934,6 +934,9 @@
                 "wpackagist-plugin/attachment-taxonomies": "^1",
                 "wpackagist-plugin/format-media-titles": "1.0.0",
                 "wpackagist-plugin/modern-images-wp": "^1"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "^0.6.7"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -946,6 +949,9 @@
                 }
             },
             "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
                 "files": [
                     "inc/attachment-taxonomies/namespace.php",
                     "inc/auto-featured-image/namespace.php",
@@ -953,9 +959,6 @@
                     "inc/image-optimization/namespace.php",
                     "inc/modern-images-wp/namespace.php",
                     "inc/namespace.php"
-                ],
-                "classmap": [
-                    "inc/"
                 ]
             },
             "license": [
@@ -988,7 +991,7 @@
                 "issues": "https://github.com/figuren-theater/ft-media/issues",
                 "source": "https://github.com/figuren-theater/ft-media"
             },
-            "time": "2023-03-04T04:35:53+00:00"
+            "time": "2023-08-29T13:58:34+00:00"
         },
         {
             "name": "figuren-theater/ft-network-block-editor",
