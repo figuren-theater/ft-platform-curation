@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfd93d2ca42c50f5cf85e8b6a80105a7",
+    "content-hash": "2a5c71155cfcf220cacaec01ad70c164",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1271,8 +1271,14 @@
             "version": "1.2.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-performance",
+                "url": "https://github.com/figuren-theater/ft-performance.git",
                 "reference": "6639167f671c0e7bbafa9919173cb0db8e70362f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/6639167f671c0e7bbafa9919173cb0db8e70362f",
+                "reference": "6639167f671c0e7bbafa9919173cb0db8e70362f",
+                "shasum": ""
             },
             "require": {
                 "carstingaxion/cache-control": "^2.2",
@@ -1316,6 +1322,7 @@
                     "inc/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],

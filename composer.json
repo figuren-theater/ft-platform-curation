@@ -37,12 +37,12 @@
         "figuren-theater/ft-media": "^1.1",
         "figuren-theater/ft-onboarding": "^1.4",
         "figuren-theater/ft-options": "^1.1",
-        "figuren-theater/ft-performance": "^1.2",
-        "figuren-theater/ft-privacy": "^1.1",
+        "figuren-theater/ft-performance": "^1.3",
+        "figuren-theater/ft-privacy": "^1.2",
         "figuren-theater/ft-routes": "^1.1",
         "figuren-theater/ft-security": "^1.4",
         "figuren-theater/ft-seo": "^1.1",
-        "figuren-theater/ft-site-editing": "^1.3",
+        "figuren-theater/ft-site-editing": "^1.4",
         "figuren-theater/ft-themes": "^1.2",
         "figuren-theater/ft-theming": "^1.0",
         "inpsyde/wp-translation-downloader": "^2.5",
@@ -107,10 +107,6 @@
         {
             "type": "git",
             "url": "https://github.com/figuren-theater/ft-onboarding"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/figuren-theater/ft-performance"
         },
         {
             "type": "git",
