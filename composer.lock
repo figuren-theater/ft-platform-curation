@@ -1516,16 +1516,16 @@
         },
         {
             "name": "figuren-theater/ft-security",
-            "version": "1.4.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-security.git",
-                "reference": "25b640df54c484cf93572459ca52c4ab3340c8fb"
+                "reference": "01887483f69596135973909e6d616b4fedb4654d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/25b640df54c484cf93572459ca52c4ab3340c8fb",
-                "reference": "25b640df54c484cf93572459ca52c4ab3340c8fb",
+                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/01887483f69596135973909e6d616b4fedb4654d",
+                "reference": "01887483f69596135973909e6d616b4fedb4654d",
                 "shasum": ""
             },
             "require": {
@@ -1539,7 +1539,7 @@
                 "wpackagist-plugin/wps-hide-login": "^1.9"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.6"
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1604,7 +1604,7 @@
                 "issues": "https://github.com/figuren-theater/ft-security/issues",
                 "source": "https://github.com/figuren-theater/ft-security"
             },
-            "time": "2023-08-16T20:31:35+00:00"
+            "time": "2023-09-02T00:30:42+00:00"
         },
         {
             "name": "figuren-theater/ft-seo",
@@ -3639,15 +3639,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.25.22",
+            "version": "2.25.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.25.22"
+                "reference": "tags/2.25.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.24.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4035,15 +4035,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.9.8",
+            "version": "1.9.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.9.8"
+                "reference": "tags/1.9.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
