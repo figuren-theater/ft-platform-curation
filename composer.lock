@@ -1671,16 +1671,16 @@
         },
         {
             "name": "figuren-theater/ft-site-editing",
-            "version": "1.3.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-site-editing.git",
-                "reference": "46ea621e114910c78c8625af572bc6ebc413039d"
+                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/46ea621e114910c78c8625af572bc6ebc413039d",
-                "reference": "46ea621e114910c78c8625af572bc6ebc413039d",
+                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/5c908c950c8708019f0acd577a1ff30bd7658bc7",
+                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7",
                 "shasum": ""
             },
             "require": {
@@ -1695,19 +1695,19 @@
                 "wpackagist-plugin/copyright-block": "^0.1",
                 "wpackagist-plugin/dinosaur-game": "^1.0",
                 "wpackagist-plugin/embed-block-for-github": "^0.3",
-                "wpackagist-plugin/gallery-block-lightbox": "^1.12",
-                "wpackagist-plugin/icon-block": "^1.4",
+                "wpackagist-plugin/gallery-block-lightbox": "^1.13",
+                "wpackagist-plugin/icon-block": "^1.5",
                 "wpackagist-plugin/image-source-control-isc": "^2",
                 "wpackagist-plugin/lang-attribute": "^0.3",
                 "wpackagist-plugin/markdown-comment-block": "^0.1",
                 "wpackagist-plugin/newspaper-columns": "^1.0",
-                "wpackagist-plugin/social-sharing-block": "^0.6",
+                "wpackagist-plugin/social-sharing-block": "^0.9",
                 "wpackagist-plugin/superlist-block": "^0.1",
                 "wpackagist-plugin/todo-block": "^1.0"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.6",
-                "wpackagist-plugin/gutenberg": ">=15.2"
+                "figuren-theater/code-quality": "*",
+                "wpackagist-plugin/gutenberg": ">=16.4"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1791,7 +1791,7 @@
                 "issues": "https://github.com/figuren-theater/ft-site-editing/issues",
                 "source": "https://github.com/figuren-theater/ft-site-editing"
             },
-            "time": "2023-08-18T08:30:34+00:00"
+            "time": "2023-09-02T00:40:50+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
@@ -2708,27 +2708,27 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762"
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/552f6f783dfb08b950e2bb113cfa9b2726780762",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.3.0",
+                "johnpbloch/wordpress-core": "6.3.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -2750,28 +2750,28 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-08-10T16:07:29+00:00"
+            "time": "2023-08-29T14:28:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a"
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/d8a7716377714e21ab44e0d3c5632a57ada5788a",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fc432f78ae5256b7fa28e810cfdf0b968d003699",
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3.0"
+                "wordpress/core-implementation": "6.3.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2798,7 +2798,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-08-10T16:07:25+00:00"
+            "time": "2023-08-29T14:28:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -3567,15 +3567,15 @@
         },
         {
             "name": "wpackagist-plugin/image-source-control-isc",
-            "version": "2.14.2",
+            "version": "2.16.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/image-source-control-isc/",
-                "reference": "tags/2.14.2"
+                "reference": "tags/2.16.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.14.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.16.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3819,15 +3819,15 @@
         },
         {
             "name": "wpackagist-plugin/social-sharing-block",
-            "version": "0.6.0",
+            "version": "0.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/social-sharing-block/",
-                "reference": "tags/0.6.0"
+                "reference": "tags/0.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.0.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.0.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
