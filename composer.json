@@ -49,7 +49,7 @@
         "johnpbloch/wordpress": "^6.3"
     },
     "require-dev": {
-        "figuren-theater/code-quality": "^0.6.6"
+        "figuren-theater/code-quality": "^0.7.0"
     },
     "repositories": [
         {
