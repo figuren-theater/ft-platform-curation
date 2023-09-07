@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a5c71155cfcf220cacaec01ad70c164",
+    "content-hash": "217254688992aad300ce1da7416847b3",
     "packages": [
         {
             "name": "10up/distributor",
@@ -410,7 +410,7 @@
         },
         {
             "name": "figuren-theater/blogs",
-            "version": "dev-main",
+            "version": "0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/BLOGS",
@@ -420,7 +420,6 @@
                 "figuren-theater/katharina-muschiol.de": "*",
                 "figuren-theater/websites.fuer.figuren.theater-demos": "*"
             },
-            "default-branch": true,
             "type": "metapackage",
             "license": [
                 "GPL-3.0-or-later"
@@ -455,16 +454,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2",
-                "reference": "26f37cf047d484b9822df55f1e7627216f950b38"
+                "reference": "21aec40caf0d23fe7aeee0d7ced406b5803dd21b"
             },
             "require": {
-                "composer/installers": "^1.12",
+                "composer/installers": "^1.12 || ^2",
+                "koodimonni/composer-dropin-installer": "^1.4",
                 "php": ">=7.1"
             },
             "default-branch": true,
-            "type": "wordpress-muplugin",
-            "extra": {
-                "installer-name": "Figuren_Theater"
+            "type": "wordpress-dropin",
+            "autoload": {
+                "classmap": [
+                    "mu-plugins/Figuren_Theater/src/"
+                ]
             },
             "license": [
                 "GPL-3.0-or-later"
@@ -494,7 +496,7 @@
                 "issues": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2/issues",
                 "source": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2"
             },
-            "time": "2023-08-13T23:29:08+00:00"
+            "time": "2023-09-07T19:41:21+00:00"
         },
         {
             "name": "figuren-theater/deprecated_plugins_v2",
@@ -534,16 +536,16 @@
         },
         {
             "name": "figuren-theater/ft-admin-ui",
-            "version": "1.1.1",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-admin-ui.git",
-                "reference": "cbea5bee2eba9d0b10a302eb010506b3752c9573"
+                "reference": "6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/cbea5bee2eba9d0b10a302eb010506b3752c9573",
-                "reference": "cbea5bee2eba9d0b10a302eb010506b3752c9573",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6",
+                "reference": "6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6",
                 "shasum": ""
             },
             "require": {
@@ -552,6 +554,9 @@
                 "wpackagist-plugin/disable-gutenberg-blocks": "^1.0",
                 "wpackagist-plugin/emoji-toolbar": "^1.2",
                 "wpackagist-plugin/heartbeat-control": "^2.0"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -609,7 +614,7 @@
                 "issues": "https://github.com/figuren-theater/ft-admin-ui/issues",
                 "source": "https://github.com/figuren-theater/ft-admin-ui"
             },
-            "time": "2023-05-08T23:52:54+00:00"
+            "time": "2023-09-02T01:55:15+00:00"
         },
         {
             "name": "figuren-theater/ft-core-block-domaincheck",
@@ -831,16 +836,16 @@
         },
         {
             "name": "figuren-theater/ft-maintenance",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-maintenance.git",
-                "reference": "ac297073e1b5d6b81248d3dac6c2161f429cb6ae"
+                "reference": "cbc9f7112c7505dda181d05471b01e01d5367e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/ac297073e1b5d6b81248d3dac6c2161f429cb6ae",
-                "reference": "ac297073e1b5d6b81248d3dac6c2161f429cb6ae",
+                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/cbc9f7112c7505dda181d05471b01e01d5367e87",
+                "reference": "cbc9f7112c7505dda181d05471b01e01d5367e87",
                 "shasum": ""
             },
             "require": {
@@ -918,7 +923,7 @@
                 "issues": "https://github.com/figuren-theater/ft-maintenance/issues",
                 "source": "https://github.com/figuren-theater/ft-maintenance"
             },
-            "time": "2023-08-10T23:17:00+00:00"
+            "time": "2023-09-02T01:49:58+00:00"
         },
         {
             "name": "figuren-theater/ft-media",
@@ -1213,21 +1218,25 @@
         },
         {
             "name": "figuren-theater/ft-options",
-            "version": "1.1.11",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-options.git",
-                "reference": "7764df6116733212baa363483053728d38d3bf28"
+                "reference": "84a8232615d556f62e6d375ed822b2611df4b5f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-options/zipball/7764df6116733212baa363483053728d38d3bf28",
-                "reference": "7764df6116733212baa363483053728d38d3bf28",
+                "url": "https://api.github.com/repos/figuren-theater/ft-options/zipball/84a8232615d556f62e6d375ed822b2611df4b5f0",
+                "reference": "84a8232615d556f62e6d375ed822b2611df4b5f0",
                 "shasum": ""
             },
             "require": {
+                "figuren-theater/deprecated_figuren_theater_v2": "dev-master",
                 "markjaquith/wp-tlc-transients": "^1.0",
-                "php": ">=7.1"
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "autoload": {
@@ -1264,26 +1273,27 @@
                 "issues": "https://github.com/figuren-theater/ft-options/issues",
                 "source": "https://github.com/figuren-theater/ft-options"
             },
-            "time": "2023-07-06T21:36:17+00:00"
+            "time": "2023-09-07T19:48:38+00:00"
         },
         {
             "name": "figuren-theater/ft-performance",
-            "version": "1.2.6",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-performance.git",
-                "reference": "6639167f671c0e7bbafa9919173cb0db8e70362f"
+                "reference": "694852477a26c2fc757f7072a0afc3fd7357d4ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/6639167f671c0e7bbafa9919173cb0db8e70362f",
-                "reference": "6639167f671c0e7bbafa9919173cb0db8e70362f",
+                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/694852477a26c2fc757f7072a0afc3fd7357d4ad",
+                "reference": "694852477a26c2fc757f7072a0afc3fd7357d4ad",
                 "shasum": ""
             },
             "require": {
                 "carstingaxion/cache-control": "^2.2",
                 "carstingaxion/wp-super-preload": "^1.2",
                 "figuren-theater/ft-options": "^1",
+                "figuren-theater/ft-theming": "^1.1",
                 "php": ">=7.2",
                 "wpackagist-plugin/cache-enabler": "^1.8",
                 "wpackagist-plugin/fast404": "^1",
@@ -1291,6 +1301,9 @@
                 "wpackagist-plugin/pwa": "^0.7",
                 "wpackagist-plugin/quicklink": "^0.10",
                 "wpackagist-plugin/sqlite-object-cache": "^1.3"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1354,20 +1367,20 @@
                 "issues": "https://github.com/figuren-theater/ft-performance/issues",
                 "source": "https://github.com/figuren-theater/ft-performance"
             },
-            "time": "2023-05-25T08:44:43+00:00"
+            "time": "2023-09-04T21:25:37+00:00"
         },
         {
             "name": "figuren-theater/ft-privacy",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-privacy.git",
-                "reference": "44b20a18938e73b20e7a76a361d88c95f71a6333"
+                "reference": "d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/44b20a18938e73b20e7a76a361d88c95f71a6333",
-                "reference": "44b20a18938e73b20e7a76a361d88c95f71a6333",
+                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b",
+                "reference": "d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b",
                 "shasum": ""
             },
             "require": {
@@ -1380,7 +1393,7 @@
                 "wpackagist-plugin/surbma-gdpr-multisite-privacy": "^2"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.6"
+                "figuren-theater/code-quality": "*"
             },
             "suggest": {
                 "figuren-theater/ft-onboarding": "Contains the mandatory filter, which will help to pseudo-activate the Embed-Privacy-Plugin, if available."
@@ -1445,20 +1458,20 @@
                 "issues": "https://github.com/figuren-theater/ft-privacy/issues",
                 "source": "https://github.com/figuren-theater/ft-privacy"
             },
-            "time": "2023-08-18T23:34:18+00:00"
+            "time": "2023-09-02T01:01:05+00:00"
         },
         {
             "name": "figuren-theater/ft-routes",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-routes.git",
-                "reference": "73aab844596cd9b43f7d51b26983dcaa350a5393"
+                "reference": "9200538f4208c354df9560b9335482334f9eaa23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/73aab844596cd9b43f7d51b26983dcaa350a5393",
-                "reference": "73aab844596cd9b43f7d51b26983dcaa350a5393",
+                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/9200538f4208c354df9560b9335482334f9eaa23",
+                "reference": "9200538f4208c354df9560b9335482334f9eaa23",
                 "shasum": ""
             },
             "require": {
@@ -1529,20 +1542,20 @@
                 "issues": "https://github.com/figuren-theater/ft-routes/issues",
                 "source": "https://github.com/figuren-theater/ft-routes"
             },
-            "time": "2023-08-22T10:15:51+00:00"
+            "time": "2023-09-02T00:03:08+00:00"
         },
         {
             "name": "figuren-theater/ft-security",
-            "version": "1.4.0",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-security.git",
-                "reference": "25b640df54c484cf93572459ca52c4ab3340c8fb"
+                "reference": "01887483f69596135973909e6d616b4fedb4654d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/25b640df54c484cf93572459ca52c4ab3340c8fb",
-                "reference": "25b640df54c484cf93572459ca52c4ab3340c8fb",
+                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/01887483f69596135973909e6d616b4fedb4654d",
+                "reference": "01887483f69596135973909e6d616b4fedb4654d",
                 "shasum": ""
             },
             "require": {
@@ -1556,7 +1569,7 @@
                 "wpackagist-plugin/wps-hide-login": "^1.9"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.6"
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1621,7 +1634,7 @@
                 "issues": "https://github.com/figuren-theater/ft-security/issues",
                 "source": "https://github.com/figuren-theater/ft-security"
             },
-            "time": "2023-08-16T20:31:35+00:00"
+            "time": "2023-09-02T00:30:42+00:00"
         },
         {
             "name": "figuren-theater/ft-seo",
@@ -1688,16 +1701,16 @@
         },
         {
             "name": "figuren-theater/ft-site-editing",
-            "version": "1.3.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-site-editing.git",
-                "reference": "46ea621e114910c78c8625af572bc6ebc413039d"
+                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/46ea621e114910c78c8625af572bc6ebc413039d",
-                "reference": "46ea621e114910c78c8625af572bc6ebc413039d",
+                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/5c908c950c8708019f0acd577a1ff30bd7658bc7",
+                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7",
                 "shasum": ""
             },
             "require": {
@@ -1712,19 +1725,19 @@
                 "wpackagist-plugin/copyright-block": "^0.1",
                 "wpackagist-plugin/dinosaur-game": "^1.0",
                 "wpackagist-plugin/embed-block-for-github": "^0.3",
-                "wpackagist-plugin/gallery-block-lightbox": "^1.12",
-                "wpackagist-plugin/icon-block": "^1.4",
+                "wpackagist-plugin/gallery-block-lightbox": "^1.13",
+                "wpackagist-plugin/icon-block": "^1.5",
                 "wpackagist-plugin/image-source-control-isc": "^2",
                 "wpackagist-plugin/lang-attribute": "^0.3",
                 "wpackagist-plugin/markdown-comment-block": "^0.1",
                 "wpackagist-plugin/newspaper-columns": "^1.0",
-                "wpackagist-plugin/social-sharing-block": "^0.6",
+                "wpackagist-plugin/social-sharing-block": "^0.9",
                 "wpackagist-plugin/superlist-block": "^0.1",
                 "wpackagist-plugin/todo-block": "^1.0"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.6",
-                "wpackagist-plugin/gutenberg": ">=15.2"
+                "figuren-theater/code-quality": "*",
+                "wpackagist-plugin/gutenberg": ">=16.4"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1808,7 +1821,7 @@
                 "issues": "https://github.com/figuren-theater/ft-site-editing/issues",
                 "source": "https://github.com/figuren-theater/ft-site-editing"
             },
-            "time": "2023-08-18T08:30:34+00:00"
+            "time": "2023-09-02T00:40:50+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
@@ -2026,7 +2039,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/katharina-muschiol.de",
-                "reference": "5c495f0f484f314f24ba5b174e7e74262e17bfce"
+                "reference": "1eb5f55e4d73dc8d71f67c8895651ef1c14a817b"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": "^1.4"
@@ -2054,7 +2067,7 @@
                 "wordpress",
                 "wordpress-dropin"
             ],
-            "time": "2023-04-24T23:01:00+00:00"
+            "time": "2023-09-01T22:17:57+00:00"
         },
         {
             "name": "figuren-theater/twentytwentytwo-ft-core",
@@ -2062,7 +2075,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/twentytwentytwo-ft-core",
-                "reference": "a54620f72d6921f93ef262b5a24101dee029714f"
+                "reference": "c420dc1492361cfac863d4e83f2bc89f323f090e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2",
@@ -2098,7 +2111,7 @@
                 "issues": "https://github.com/figuren-theater/twentytwentytwo-ft-core/issues",
                 "source": "https://github.com/figuren-theater/twentytwentytwo-ft-core"
             },
-            "time": "2023-08-22T18:39:12+00:00"
+            "time": "2023-09-01T22:10:29+00:00"
         },
         {
             "name": "figuren-theater/websites.fuer.figuren.theater-demos",
@@ -2106,7 +2119,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/websites.fuer.figuren.theater-demos",
-                "reference": "38d1548b7fb18681a0dbccad4d7529a9f03f1d60"
+                "reference": "3799c4ef0e65f5691e61324ae0680bcc673d3c01"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": "^1.4"
@@ -2135,7 +2148,7 @@
                 "issues": "https://github.com/figuren-theater/websites.fuer.figuren.theater-demos/issues",
                 "source": "https://github.com/figuren-theater/websites.fuer.figuren.theater-demos"
             },
-            "time": "2023-04-24T23:00:02+00:00"
+            "time": "2023-09-01T22:09:52+00:00"
         },
         {
             "name": "georgestephanis/application-passwords",
@@ -2725,27 +2738,27 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762"
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/552f6f783dfb08b950e2bb113cfa9b2726780762",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.3.0",
+                "johnpbloch/wordpress-core": "6.3.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -2767,28 +2780,28 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-08-10T16:07:29+00:00"
+            "time": "2023-08-29T14:28:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a"
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/d8a7716377714e21ab44e0d3c5632a57ada5788a",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fc432f78ae5256b7fa28e810cfdf0b968d003699",
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3.0"
+                "wordpress/core-implementation": "6.3.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -2815,7 +2828,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-08-10T16:07:25+00:00"
+            "time": "2023-08-29T14:28:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -3368,15 +3381,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-search",
-            "version": "2.0",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-search/",
-                "reference": "tags/2.0"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-search.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-search.2.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3548,15 +3561,15 @@
         },
         {
             "name": "wpackagist-plugin/heartbeat-control",
-            "version": "2.0",
+            "version": "2.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/heartbeat-control/",
-                "reference": "tags/2.0"
+                "reference": "tags/2.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/heartbeat-control.2.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/heartbeat-control.2.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3584,15 +3597,15 @@
         },
         {
             "name": "wpackagist-plugin/image-source-control-isc",
-            "version": "2.14.2",
+            "version": "2.16.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/image-source-control-isc/",
-                "reference": "tags/2.14.2"
+                "reference": "tags/2.16.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.14.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.16.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3620,15 +3633,15 @@
         },
         {
             "name": "wpackagist-plugin/koko-analytics",
-            "version": "1.0.38",
+            "version": "1.0.39",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/koko-analytics/",
-                "reference": "tags/1.0.38"
+                "reference": "tags/1.0.39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/koko-analytics.1.0.38.zip"
+                "url": "https://downloads.wordpress.org/plugin/koko-analytics.1.0.39.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3656,15 +3669,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.25.22",
+            "version": "2.25.25",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.25.22"
+                "reference": "tags/2.25.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.22.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.25.25.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3836,15 +3849,15 @@
         },
         {
             "name": "wpackagist-plugin/social-sharing-block",
-            "version": "0.6.0",
+            "version": "0.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/social-sharing-block/",
-                "reference": "tags/0.6.0"
+                "reference": "tags/0.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.0.6.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.0.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3944,15 +3957,15 @@
         },
         {
             "name": "wpackagist-plugin/two-factor",
-            "version": "0.8.1",
+            "version": "0.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/two-factor/",
-                "reference": "tags/0.8.1"
+                "reference": "tags/0.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/two-factor.0.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/two-factor.0.8.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4052,15 +4065,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.9.8",
+            "version": "1.9.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.9.8"
+                "reference": "tags/1.9.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.8.zip"
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.9.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4106,15 +4119,15 @@
         },
         {
             "name": "wpackagist-theme/blockbase",
-            "version": "3.1.14",
+            "version": "3.1.15",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockbase/",
-                "reference": "3.1.14"
+                "reference": "3.1.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.14.zip"
+                "url": "https://downloads.wordpress.org/theme/blockbase.3.1.15.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4124,15 +4137,15 @@
         },
         {
             "name": "wpackagist-theme/blockmag",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/blockmag/",
-                "reference": "1.0.2"
+                "reference": "1.0.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/blockmag.1.0.2.zip"
+                "url": "https://downloads.wordpress.org/theme/blockmag.1.0.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5122,16 +5135,16 @@
         },
         {
             "name": "figuren-theater/code-quality",
-            "version": "0.6.6",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/code-quality.git",
-                "reference": "e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc"
+                "reference": "c783c4f792e4f448101d50cb19b97edcf52d310d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc",
-                "reference": "e75a8e42841f7637ee5c4b69c0bd3c55a07a4fbc",
+                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/c783c4f792e4f448101d50cb19b97edcf52d310d",
+                "reference": "c783c4f792e4f448101d50cb19b97edcf52d310d",
                 "shasum": ""
             },
             "require": {
@@ -5171,20 +5184,20 @@
                 "issues": "https://github.com/figuren-theater/code-quality/issues",
                 "source": "https://github.com/figuren-theater/code-quality"
             },
-            "time": "2023-07-17T18:30:13+00:00"
+            "time": "2023-09-01T23:53:33+00:00"
         },
         {
             "name": "figuren-theater/coding-standards",
-            "version": "0.3.2",
+            "version": "0.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/coding-standards.git",
-                "reference": "4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec"
+                "reference": "42929bf1e4c18f6ea16ec0a935b001548b825b5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/coding-standards/zipball/4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec",
-                "reference": "4a2e3ffd2b94b1e2d3aee35cccd9fa1eed84dbec",
+                "url": "https://api.github.com/repos/figuren-theater/coding-standards/zipball/42929bf1e4c18f6ea16ec0a935b001548b825b5e",
+                "reference": "42929bf1e4c18f6ea16ec0a935b001548b825b5e",
                 "shasum": ""
             },
             "require": {
@@ -5221,20 +5234,20 @@
                 "issues": "https://github.com/figuren-theater/coding-standards/issues",
                 "source": "https://github.com/figuren-theater/coding-standards"
             },
-            "time": "2023-07-18T14:22:04+00:00"
+            "time": "2023-08-25T09:04:03+00:00"
         },
         {
             "name": "figuren-theater/phpstan",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/phpstan.git",
-                "reference": "3aec3c760c830f185098280bf12fcec78701cb86"
+                "reference": "b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/phpstan/zipball/3aec3c760c830f185098280bf12fcec78701cb86",
-                "reference": "3aec3c760c830f185098280bf12fcec78701cb86",
+                "url": "https://api.github.com/repos/figuren-theater/phpstan/zipball/b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82",
+                "reference": "b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82",
                 "shasum": ""
             },
             "require": {
@@ -5275,7 +5288,7 @@
                 "issues": "https://github.com/figuren-theater/phpstan/issues",
                 "source": "https://github.com/figuren-theater/phpstan"
             },
-            "time": "2023-06-26T21:48:02+00:00"
+            "time": "2023-09-01T22:15:08+00:00"
         },
         {
             "name": "humanmade/coding-standards",
@@ -5750,16 +5763,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.30",
+            "version": "1.10.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "2910afdd3fe33e5afd71c09f3fb0d0845b48c410"
+                "reference": "03b1cf9f814ba0863c4e9affea49a4d1ed9a2ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2910afdd3fe33e5afd71c09f3fb0d0845b48c410",
-                "reference": "2910afdd3fe33e5afd71c09f3fb0d0845b48c410",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/03b1cf9f814ba0863c4e9affea49a4d1ed9a2ed1",
+                "reference": "03b1cf9f814ba0863c4e9affea49a4d1ed9a2ed1",
                 "shasum": ""
             },
             "require": {
@@ -5808,7 +5821,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-22T13:48:25+00:00"
+            "time": "2023-09-04T12:20:53+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -5869,16 +5882,16 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.27.0",
+            "version": "v1.28.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "9e8ecb5f92152187c4799efd3c96b78ccab18ff9"
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/9e8ecb5f92152187c4799efd3c96b78ccab18ff9",
-                "reference": "9e8ecb5f92152187c4799efd3c96b78ccab18ff9",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fe2f306d1d9d346a7fee353d0d5012e401e984b5",
+                "reference": "fe2f306d1d9d346a7fee353d0d5012e401e984b5",
                 "shasum": ""
             },
             "require": {
@@ -5887,7 +5900,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.27-dev"
+                    "dev-main": "1.28-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -5928,7 +5941,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.27.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.28.0"
             },
             "funding": [
                 {
@@ -5944,7 +5957,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-03T14:55:06+00:00"
+            "time": "2023-01-26T09:26:14+00:00"
         },
         {
             "name": "szepeviktor/phpstan-wordpress",
