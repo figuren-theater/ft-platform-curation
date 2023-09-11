@@ -454,7 +454,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2",
-                "reference": "21aec40caf0d23fe7aeee0d7ced406b5803dd21b"
+                "reference": "dc0da96a3b59a2c0468b2e6a6a347576d396dd7a"
             },
             "require": {
                 "composer/installers": "^1.12 || ^2",
@@ -496,7 +496,7 @@
                 "issues": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2/issues",
                 "source": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2"
             },
-            "time": "2023-09-07T19:41:21+00:00"
+            "time": "2023-09-11T10:20:51+00:00"
         },
         {
             "name": "figuren-theater/deprecated_plugins_v2",
@@ -1218,20 +1218,19 @@
         },
         {
             "name": "figuren-theater/ft-options",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-options.git",
-                "reference": "426183d8661403fdf1b3278bca093e2200cb64a9"
+                "reference": "127e6c8bb62cce778ee7468aa548c8326fe9c29a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-options/zipball/426183d8661403fdf1b3278bca093e2200cb64a9",
-                "reference": "426183d8661403fdf1b3278bca093e2200cb64a9",
+                "url": "https://api.github.com/repos/figuren-theater/ft-options/zipball/127e6c8bb62cce778ee7468aa548c8326fe9c29a",
+                "reference": "127e6c8bb62cce778ee7468aa548c8326fe9c29a",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/deprecated_figuren_theater_v2": "dev-master",
                 "markjaquith/wp-tlc-transients": "^1.0",
                 "php": ">=7.4"
             },
@@ -1273,7 +1272,7 @@
                 "issues": "https://github.com/figuren-theater/ft-options/issues",
                 "source": "https://github.com/figuren-theater/ft-options"
             },
-            "time": "2023-09-08T10:27:18+00:00"
+            "time": "2023-09-11T10:27:33+00:00"
         },
         {
             "name": "figuren-theater/ft-performance",
