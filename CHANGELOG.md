@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.1...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.2...HEAD)
+
+## [0.1.2](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.1...0.1.2) - 2023-09-11
+
+### 🐛 Fixed
+
+- Update (to fixed) ft-options & deprecated_figuren_theater_v2 ([#18](https://github.com/figuren-theater/ft-platform-collection/pull/18))
 
 ## [0.1.1](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.0...0.1.1) - 2023-09-08
 
