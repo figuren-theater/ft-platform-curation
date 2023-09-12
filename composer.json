@@ -110,10 +110,6 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/figuren-theater/ft-platform-collection"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/figuren-theater/ft-seo"
         },
         {
@@ -123,10 +119,6 @@
         {
             "type": "git",
             "url": "https://github.com/figuren-theater/twentytwentytwo-ft-core"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/figuren-theater/twentytwenty-ft-core"
         },
         {
             "type": "git",
