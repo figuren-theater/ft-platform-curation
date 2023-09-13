@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "217254688992aad300ce1da7416847b3",
+    "content-hash": "4d023087ad22a330c13c8f70b73e4c35",
     "packages": [
         {
             "name": "10up/distributor",
@@ -454,7 +454,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2",
-                "reference": "dc0da96a3b59a2c0468b2e6a6a347576d396dd7a"
+                "reference": "f4e6e9f542b1a450ed4e4eb2a2c89c48fc46c629"
             },
             "require": {
                 "composer/installers": "^1.12 || ^2",
@@ -496,7 +496,7 @@
                 "issues": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2/issues",
                 "source": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2"
             },
-            "time": "2023-09-11T10:20:51+00:00"
+            "time": "2023-09-12T14:55:13+00:00"
         },
         {
             "name": "figuren-theater/deprecated_plugins_v2",
@@ -504,7 +504,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/deprecated__plugins__v2",
-                "reference": "73178bee4e61b16214b6f92bb44641731343d4f2"
+                "reference": "7b6c3bd6ffb892d69b321a32b43631e07275ff4f"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": "^1.4"
@@ -532,20 +532,20 @@
                 "wordpress",
                 "wordpress-dropin"
             ],
-            "time": "2023-08-13T23:29:33+00:00"
+            "time": "2023-09-12T14:55:01+00:00"
         },
         {
             "name": "figuren-theater/ft-admin-ui",
-            "version": "1.1.3",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-admin-ui.git",
-                "reference": "6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6"
+                "reference": "f89f0ffa023635465d9b02989f05649d62b27582"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6",
-                "reference": "6eb1fb5efbbe31b44c68b8a2778302f8ed346bb6",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/f89f0ffa023635465d9b02989f05649d62b27582",
+                "reference": "f89f0ffa023635465d9b02989f05649d62b27582",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "issues": "https://github.com/figuren-theater/ft-admin-ui/issues",
                 "source": "https://github.com/figuren-theater/ft-admin-ui"
             },
-            "time": "2023-09-02T01:55:15+00:00"
+            "time": "2023-09-11T14:05:35+00:00"
         },
         {
             "name": "figuren-theater/ft-core-block-domaincheck",
@@ -836,16 +836,16 @@
         },
         {
             "name": "figuren-theater/ft-maintenance",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-maintenance.git",
-                "reference": "cbc9f7112c7505dda181d05471b01e01d5367e87"
+                "reference": "5f4d57b5792e34561976fa6b8ac96edbd3b4ffd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/cbc9f7112c7505dda181d05471b01e01d5367e87",
-                "reference": "cbc9f7112c7505dda181d05471b01e01d5367e87",
+                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/5f4d57b5792e34561976fa6b8ac96edbd3b4ffd9",
+                "reference": "5f4d57b5792e34561976fa6b8ac96edbd3b4ffd9",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +923,7 @@
                 "issues": "https://github.com/figuren-theater/ft-maintenance/issues",
                 "source": "https://github.com/figuren-theater/ft-maintenance"
             },
-            "time": "2023-09-02T01:49:58+00:00"
+            "time": "2023-09-13T09:17:10+00:00"
         },
         {
             "name": "figuren-theater/ft-media",
@@ -1047,11 +1047,11 @@
         },
         {
             "name": "figuren-theater/ft-network-block-patterns",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-network-block-patterns",
-                "reference": "e015f3df6321c32ef896648980515765b2976fcf"
+                "reference": "11e012b73d5b89d2904ef85201d8cc2f89d4135e"
             },
             "require": {
                 "johnpbloch/wordpress": "^6.0",
@@ -1088,7 +1088,7 @@
                 "issues": "https://github.com/figuren-theater/ft-network-block-patterns/issues",
                 "source": "https://github.com/figuren-theater/ft-network-block-patterns"
             },
-            "time": "2023-05-25T10:53:07+00:00"
+            "time": "2023-09-11T10:50:48+00:00"
         },
         {
             "name": "figuren-theater/ft-network-sourcelinks",
@@ -1700,16 +1700,16 @@
         },
         {
             "name": "figuren-theater/ft-site-editing",
-            "version": "1.4.1",
+            "version": "1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-site-editing.git",
-                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7"
+                "reference": "42d42df7b612b6ae9674bba706e40c9eae300ad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/5c908c950c8708019f0acd577a1ff30bd7658bc7",
-                "reference": "5c908c950c8708019f0acd577a1ff30bd7658bc7",
+                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/42d42df7b612b6ae9674bba706e40c9eae300ad9",
+                "reference": "42d42df7b612b6ae9674bba706e40c9eae300ad9",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1820,7 @@
                 "issues": "https://github.com/figuren-theater/ft-site-editing/issues",
                 "source": "https://github.com/figuren-theater/ft-site-editing"
             },
-            "time": "2023-09-02T00:40:50+00:00"
+            "time": "2023-09-11T11:01:35+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
@@ -3218,15 +3218,15 @@
         },
         {
             "name": "wpackagist-plugin/antispam-bee",
-            "version": "2.11.3",
+            "version": "2.11.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/antispam-bee/",
-                "reference": "tags/2.11.3"
+                "reference": "tags/2.11.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5134,16 +5134,16 @@
         },
         {
             "name": "figuren-theater/code-quality",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/code-quality.git",
-                "reference": "c783c4f792e4f448101d50cb19b97edcf52d310d"
+                "reference": "2ef49796e92bbe6b54ff90a1d598fc9bd448ad4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/c783c4f792e4f448101d50cb19b97edcf52d310d",
-                "reference": "c783c4f792e4f448101d50cb19b97edcf52d310d",
+                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/2ef49796e92bbe6b54ff90a1d598fc9bd448ad4c",
+                "reference": "2ef49796e92bbe6b54ff90a1d598fc9bd448ad4c",
                 "shasum": ""
             },
             "require": {
@@ -5183,7 +5183,7 @@
                 "issues": "https://github.com/figuren-theater/code-quality/issues",
                 "source": "https://github.com/figuren-theater/code-quality"
             },
-            "time": "2023-09-01T23:53:33+00:00"
+            "time": "2023-09-13T09:12:30+00:00"
         },
         {
             "name": "figuren-theater/coding-standards",
@@ -5237,21 +5237,24 @@
         },
         {
             "name": "figuren-theater/phpstan",
-            "version": "1.1.2",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/phpstan.git",
-                "reference": "b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82"
+                "reference": "8a6f5c51eb6afaa354611cd2290440d432808938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/phpstan/zipball/b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82",
-                "reference": "b4e7fffb5b43e24f5de9f21e53f2c3df2023ed82",
+                "url": "https://api.github.com/repos/figuren-theater/phpstan/zipball/8a6f5c51eb6afaa354611cd2290440d432808938",
+                "reference": "8a6f5c51eb6afaa354611cd2290440d432808938",
                 "shasum": ""
             },
             "require": {
                 "php-stubs/wordpress-globals": "^0.2.0",
                 "szepeviktor/phpstan-wordpress": "^1.3"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.31"
             },
             "type": "phpstan-extension",
             "extra": {
@@ -5280,6 +5283,7 @@
             "description": "org-wide used phpstan.neon file for the WordPress Multisite network for puppeteers figuren.theater",
             "homepage": "https://figuren.theater",
             "keywords": [
+                "PHPStan",
                 "wordpress"
             ],
             "support": {
@@ -5287,7 +5291,7 @@
                 "issues": "https://github.com/figuren-theater/phpstan/issues",
                 "source": "https://github.com/figuren-theater/phpstan"
             },
-            "time": "2023-09-01T22:15:08+00:00"
+            "time": "2023-09-13T08:55:48+00:00"
         },
         {
             "name": "humanmade/coding-standards",
