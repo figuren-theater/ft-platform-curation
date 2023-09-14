@@ -1545,16 +1545,16 @@
         },
         {
             "name": "figuren-theater/ft-security",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-security.git",
-                "reference": "01887483f69596135973909e6d616b4fedb4654d"
+                "reference": "64594c338f413ff05cb3b097a057c6e6f8b72510"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/01887483f69596135973909e6d616b4fedb4654d",
-                "reference": "01887483f69596135973909e6d616b4fedb4654d",
+                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/64594c338f413ff05cb3b097a057c6e6f8b72510",
+                "reference": "64594c338f413ff05cb3b097a057c6e6f8b72510",
                 "shasum": ""
             },
             "require": {
@@ -1633,7 +1633,7 @@
                 "issues": "https://github.com/figuren-theater/ft-security/issues",
                 "source": "https://github.com/figuren-theater/ft-security"
             },
-            "time": "2023-09-02T00:30:42+00:00"
+            "time": "2023-09-14T08:21:00+00:00"
         },
         {
             "name": "figuren-theater/ft-seo",
