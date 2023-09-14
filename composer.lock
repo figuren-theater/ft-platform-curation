@@ -1461,16 +1461,16 @@
         },
         {
             "name": "figuren-theater/ft-routes",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-routes.git",
-                "reference": "9200538f4208c354df9560b9335482334f9eaa23"
+                "reference": "26ab97cb40b7d0a5fa2e50a0eab7ef70dc60c5e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/9200538f4208c354df9560b9335482334f9eaa23",
-                "reference": "9200538f4208c354df9560b9335482334f9eaa23",
+                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/26ab97cb40b7d0a5fa2e50a0eab7ef70dc60c5e6",
+                "reference": "26ab97cb40b7d0a5fa2e50a0eab7ef70dc60c5e6",
                 "shasum": ""
             },
             "require": {
@@ -1541,7 +1541,7 @@
                 "issues": "https://github.com/figuren-theater/ft-routes/issues",
                 "source": "https://github.com/figuren-theater/ft-routes"
             },
-            "time": "2023-09-02T00:03:08+00:00"
+            "time": "2023-09-14T08:20:23+00:00"
         },
         {
             "name": "figuren-theater/ft-security",
