@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.3...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.4...HEAD)
+
+## [0.1.4](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.3...0.1.4) - 2023-09-13
+
+### 🐛 Fixed
+
+- HOTFIX missing namespace declaration (in deprecated package) ([#20](https://github.com/figuren-theater/ft-platform-collection/pull/20))
 
 ## [0.1.3](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.2...0.1.3) - 2023-09-13
 
