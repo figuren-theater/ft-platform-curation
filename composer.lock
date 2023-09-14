@@ -1276,16 +1276,16 @@
         },
         {
             "name": "figuren-theater/ft-performance",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-performance.git",
-                "reference": "694852477a26c2fc757f7072a0afc3fd7357d4ad"
+                "reference": "511c68ba4b5e4a6c289acf872a167285ed3ca096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/694852477a26c2fc757f7072a0afc3fd7357d4ad",
-                "reference": "694852477a26c2fc757f7072a0afc3fd7357d4ad",
+                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/511c68ba4b5e4a6c289acf872a167285ed3ca096",
+                "reference": "511c68ba4b5e4a6c289acf872a167285ed3ca096",
                 "shasum": ""
             },
             "require": {
@@ -1366,7 +1366,7 @@
                 "issues": "https://github.com/figuren-theater/ft-performance/issues",
                 "source": "https://github.com/figuren-theater/ft-performance"
             },
-            "time": "2023-09-04T21:25:37+00:00"
+            "time": "2023-09-14T09:40:12+00:00"
         },
         {
             "name": "figuren-theater/ft-privacy",
