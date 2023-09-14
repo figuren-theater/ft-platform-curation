@@ -1975,16 +1975,16 @@
         },
         {
             "name": "figuren-theater/install.php",
-            "version": "1.3.1",
+            "version": "1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/install.php.git",
-                "reference": "843c49b4f731e4c9d4493165a786204b37172cc6"
+                "reference": "21dd9ea85d618efdff278bf4940b0e7db510a26d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/install.php/zipball/843c49b4f731e4c9d4493165a786204b37172cc6",
-                "reference": "843c49b4f731e4c9d4493165a786204b37172cc6",
+                "url": "https://api.github.com/repos/figuren-theater/install.php/zipball/21dd9ea85d618efdff278bf4940b0e7db510a26d",
+                "reference": "21dd9ea85d618efdff278bf4940b0e7db510a26d",
                 "shasum": ""
             },
             "require": {
@@ -1992,7 +1992,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.5.0"
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-dropin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2030,7 +2030,7 @@
                 "issues": "https://github.com/figuren-theater/install.php/issues",
                 "source": "https://github.com/figuren-theater/install.php"
             },
-            "time": "2023-07-16T17:27:03+00:00"
+            "time": "2023-09-14T09:37:00+00:00"
         },
         {
             "name": "figuren-theater/katharina-muschiol.de",
