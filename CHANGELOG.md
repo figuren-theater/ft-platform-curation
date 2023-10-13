@@ -2,7 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.4...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.5...HEAD)
+
+## [0.1.5](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.4...0.1.5) - 2023-09-14
+
+### Dependency Updates & Maintenance
+
+- Upgrading figuren-theater/install.php (1.3.1 => 1.3.2) ([#24](https://github.com/figuren-theater/ft-platform-collection/pull/24))
+- Upgrading figuren-theater/ft-performance (1.3.0 => 1.3.1) ([#23](https://github.com/figuren-theater/ft-platform-collection/pull/23))
+- Upgrading figuren-theater/ft-security (1.4.2 => 1.4.3) ([#22](https://github.com/figuren-theater/ft-platform-collection/pull/22))
+- Upgrading figuren-theater/ft-routes (1.1.2 => 1.1.3) ([#21](https://github.com/figuren-theater/ft-platform-collection/pull/21))
 
 ## [0.1.4](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.3...0.1.4) - 2023-09-13
 
