@@ -2,7 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.5...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.6...HEAD)
+
+## [0.1.6](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.5...0.1.6) - 2023-10-13
+
+### Security
+
+- Security & Maintenance Update WordPress 6.3.2 ([#28](https://github.com/figuren-theater/ft-platform-collection/pull/28))
+
+### Dependency Updates & Maintenance
+
+- Bump johnpbloch/wordpress from 6.3.1 to 6.3.2 ([#27](https://github.com/figuren-theater/ft-platform-collection/pull/27))
+- Bump figuren-theater/ft-site-editing from 1.4.2 to 1.5.0 ([#25](https://github.com/figuren-theater/ft-platform-collection/pull/25))
+- Bump figuren-theater/code-quality from 0.7.1 to 0.8.1 ([#26](https://github.com/figuren-theater/ft-platform-collection/pull/26))
 
 ## [0.1.5](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.4...0.1.5) - 2023-09-14
 
