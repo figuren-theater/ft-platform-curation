@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.6...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.7...HEAD)
+
+## [0.1.7](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.6...0.1.7) - 2023-10-13
+
+##Maintenance
+
+- Upgrading figuren-theater/ft-privacy (1.2.0 => 1.2.1) ([#29](https://github.com/figuren-theater/ft-platform-collection/pull/29))
 
 ## [0.1.6](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.5...0.1.6) - 2023-10-13
 
