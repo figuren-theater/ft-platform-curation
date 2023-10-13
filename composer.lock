@@ -1387,26 +1387,26 @@
         },
         {
             "name": "figuren-theater/ft-privacy",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-privacy.git",
-                "reference": "d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b"
+                "reference": "afdd1869a98dba0cf3a43837efe7973bbd173809"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b",
-                "reference": "d8cc45bc90186a69d8cbb72cfdee4a1b7642ff9b",
+                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/afdd1869a98dba0cf3a43837efe7973bbd173809",
+                "reference": "afdd1869a98dba0cf3a43837efe7973bbd173809",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/ft-options": "^1",
-                "koodimonni/composer-dropin-installer": "^1.4",
+                "figuren-theater/ft-options": "*",
+                "koodimonni/composer-dropin-installer": "1.4",
                 "php": ">=7.1",
-                "wpackagist-plugin/compressed-emoji": "^1.5",
-                "wpackagist-plugin/embed-privacy": "^1.8",
-                "wpackagist-plugin/koko-analytics": "^1.0",
-                "wpackagist-plugin/surbma-gdpr-multisite-privacy": "^2"
+                "wpackagist-plugin/compressed-emoji": "1.5",
+                "wpackagist-plugin/embed-privacy": "1.8.0",
+                "wpackagist-plugin/koko-analytics": "1.0.39",
+                "wpackagist-plugin/surbma-gdpr-multisite-privacy": "2.0"
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*"
@@ -1474,7 +1474,7 @@
                 "issues": "https://github.com/figuren-theater/ft-privacy/issues",
                 "source": "https://github.com/figuren-theater/ft-privacy"
             },
-            "time": "2023-09-02T01:01:05+00:00"
+            "time": "2023-10-13T16:25:46+00:00"
         },
         {
             "name": "figuren-theater/ft-routes",
