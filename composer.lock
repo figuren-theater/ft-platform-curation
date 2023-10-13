@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4d023087ad22a330c13c8f70b73e4c35",
+    "content-hash": "57ff73d433e568f053b5dd4932614a30",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1010,8 +1010,14 @@
             "version": "0.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-network-block-editor",
+                "url": "https://github.com/figuren-theater/ft-network-block-editor.git",
                 "reference": "6d2328cd43fb24d489e5c8a5b414d01f26cfb376"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-network-block-editor/zipball/6d2328cd43fb24d489e5c8a5b414d01f26cfb376",
+                "reference": "6d2328cd43fb24d489e5c8a5b414d01f26cfb376",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
@@ -1027,6 +1033,7 @@
                     "inc/namespace.php"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
