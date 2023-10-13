@@ -454,7 +454,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2",
-                "reference": "3200f0db87349cab5af157f0d84b29b38f6b3e4b"
+                "reference": "524cd3aba8a261166e4f654b4545a5fde30ba521"
             },
             "require": {
                 "composer/installers": "^1.12 || ^2",
@@ -496,7 +496,7 @@
                 "issues": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2/issues",
                 "source": "https://github.com/figuren-theater/deprecated__Figuren_Theater__v2"
             },
-            "time": "2023-09-13T12:10:33+00:00"
+            "time": "2023-09-14T21:58:00+00:00"
         },
         {
             "name": "figuren-theater/deprecated_plugins_v2",
@@ -1007,16 +1007,26 @@
         },
         {
             "name": "figuren-theater/ft-network-block-editor",
-            "version": "0.4.0",
+            "version": "0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-network-block-editor",
-                "reference": "efbf9b5f4dd545efc42e551e4583d5554e3d1169"
+                "reference": "6d2328cd43fb24d489e5c8a5b414d01f26cfb376"
             },
             "require": {
                 "php": ">=7.1"
             },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
             "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "inc/archive-title/namespace.php",
+                    "inc/editor-assets/namespace.php",
+                    "inc/namespace.php"
+                ]
+            },
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -1043,7 +1053,7 @@
                 "issues": "https://github.com/figuren-theater/ft-network-block-editor/issues",
                 "source": "https://github.com/figuren-theater/ft-network-block-editor"
             },
-            "time": "2023-02-18T17:48:04+00:00"
+            "time": "2023-09-26T21:19:48+00:00"
         },
         {
             "name": "figuren-theater/ft-network-block-patterns",
@@ -1700,16 +1710,16 @@
         },
         {
             "name": "figuren-theater/ft-site-editing",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-site-editing.git",
-                "reference": "42d42df7b612b6ae9674bba706e40c9eae300ad9"
+                "reference": "d586330a74d51b40d39f1eb00cd837f691068e9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/42d42df7b612b6ae9674bba706e40c9eae300ad9",
-                "reference": "42d42df7b612b6ae9674bba706e40c9eae300ad9",
+                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/d586330a74d51b40d39f1eb00cd837f691068e9a",
+                "reference": "d586330a74d51b40d39f1eb00cd837f691068e9a",
                 "shasum": ""
             },
             "require": {
@@ -1820,7 +1830,7 @@
                 "issues": "https://github.com/figuren-theater/ft-site-editing/issues",
                 "source": "https://github.com/figuren-theater/ft-site-editing"
             },
-            "time": "2023-09-11T11:01:35+00:00"
+            "time": "2023-09-27T08:38:01+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
@@ -3272,15 +3282,15 @@
         },
         {
             "name": "wpackagist-plugin/block-visibility",
-            "version": "3.0.4",
+            "version": "3.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-visibility/",
-                "reference": "tags/3.0.4"
+                "reference": "tags/3.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-visibility.3.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/block-visibility.3.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
