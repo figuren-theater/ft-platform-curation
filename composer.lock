@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff7d02a3cbd327977d7414f3b4b955b2",
+    "content-hash": "b038117deef04f2ba5f3fc7ba437aa85",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1387,16 +1387,16 @@
         },
         {
             "name": "figuren-theater/ft-privacy",
-            "version": "1.2.1",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-privacy.git",
-                "reference": "afdd1869a98dba0cf3a43837efe7973bbd173809"
+                "reference": "2d438a0890a3f5ee0c4d92cedac35e18c2c43431"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/afdd1869a98dba0cf3a43837efe7973bbd173809",
-                "reference": "afdd1869a98dba0cf3a43837efe7973bbd173809",
+                "url": "https://api.github.com/repos/figuren-theater/ft-privacy/zipball/2d438a0890a3f5ee0c4d92cedac35e18c2c43431",
+                "reference": "2d438a0890a3f5ee0c4d92cedac35e18c2c43431",
                 "shasum": ""
             },
             "require": {
@@ -1474,7 +1474,7 @@
                 "issues": "https://github.com/figuren-theater/ft-privacy/issues",
                 "source": "https://github.com/figuren-theater/ft-privacy"
             },
-            "time": "2023-10-13T16:25:46+00:00"
+            "time": "2023-10-13T22:07:19+00:00"
         },
         {
             "name": "figuren-theater/ft-routes",
