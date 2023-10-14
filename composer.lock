@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8fb3ba0adaa6b3f21342cb88011dbc10",
+    "content-hash": "ff7d02a3cbd327977d7414f3b4b955b2",
     "packages": [
         {
             "name": "10up/distributor",
@@ -927,27 +927,27 @@
         },
         {
             "name": "figuren-theater/ft-media",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-media.git",
-                "reference": "faa083912f519fcbed69bd1cb6fe6b7e7d63f15e"
+                "reference": "23f74228d105d82b63ad2760714eb39fb2aad34b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/faa083912f519fcbed69bd1cb6fe6b7e7d63f15e",
-                "reference": "faa083912f519fcbed69bd1cb6fe6b7e7d63f15e",
+                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/23f74228d105d82b63ad2760714eb39fb2aad34b",
+                "reference": "23f74228d105d82b63ad2760714eb39fb2aad34b",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/ft-options": "^1",
+                "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/attachment-taxonomies": "^1",
+                "wpackagist-plugin/attachment-taxonomies": "1.1.1",
                 "wpackagist-plugin/format-media-titles": "1.0.0",
-                "wpackagist-plugin/modern-images-wp": "^1"
+                "wpackagist-plugin/modern-images-wp": "1.1.0"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "^0.6.7"
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1003,7 +1003,7 @@
                 "issues": "https://github.com/figuren-theater/ft-media/issues",
                 "source": "https://github.com/figuren-theater/ft-media"
             },
-            "time": "2023-08-29T13:58:34+00:00"
+            "time": "2023-10-13T21:38:58+00:00"
         },
         {
             "name": "figuren-theater/ft-network-block-editor",
