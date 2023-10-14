@@ -1,6 +1,6 @@
 {
     "name": "figuren-theater/ft-platform-collection",
-    "description": "figuren.theater platform collection",
+    "description": "Curated collection of all parts of the WordPress Multisite network for puppeteers - figuren.theater",
     "license": "GPL-3.0-or-later",
     "type": "metapackage",
     "keywords": [
