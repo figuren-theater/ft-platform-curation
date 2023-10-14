@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4dec4bfa302086a51deb6cb9dafbe7e",
+    "content-hash": "17ee3d9fa9880c1af57e0e4de098d873",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1840,6 +1840,72 @@
             "time": "2023-09-27T08:38:01+00:00"
         },
         {
+            "name": "figuren-theater/ft-theater",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/figuren-theater/ft-theater.git",
+                "reference": "16e062305159bfe6c72baa3da01a71766430a1ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-theater/zipball/16e062305159bfe6c72baa3da01a71766430a1ff",
+                "reference": "16e062305159bfe6c72baa3da01a71766430a1ff",
+                "shasum": ""
+            },
+            "require": {
+                "figuren-theater/label-printing": "0.2.0"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
+            "type": "wordpress-muplugin",
+            "extra": {
+                "altis": {
+                    "install-overrides": [
+                        "figuren-theater/label-printing"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "inc/label-printing/namespace.php",
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "figuren.theater",
+                    "email": "info@figuren.theater"
+                },
+                {
+                    "name": "Carsten Bach",
+                    "email": "mail@carsten-bach.de",
+                    "homepage": "https://carsten-bach.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "All you need, if you run a theater or a WordPress Multisite network for puppeteers like figuren.theater.",
+            "homepage": "https://websites.fuer.figuren.theater",
+            "keywords": [
+                "wordpress",
+                "wordpress-muplugin"
+            ],
+            "support": {
+                "email": "info@figuren.theater",
+                "issues": "https://github.com/figuren-theater/ft-theater/issues",
+                "source": "https://github.com/figuren-theater/ft-theater"
+            },
+            "time": "2023-10-14T20:57:49+00:00"
+        },
+        {
             "name": "figuren-theater/ft-themes",
             "version": "1.2.1",
             "source": {
@@ -2084,6 +2150,66 @@
                 "wordpress-dropin"
             ],
             "time": "2023-09-01T22:17:57+00:00"
+        },
+        {
+            "name": "figuren-theater/label-printing",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/figuren-theater/label-printing.git",
+                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/label-printing/zipball/ab4cd969776e5412486de6e358a86ffdeba68132",
+                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132",
+                "shasum": ""
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "figuren.theater",
+                    "email": "info@figuren.theater"
+                },
+                {
+                    "name": "Carsten Bach",
+                    "email": "mail@carsten-bach.de",
+                    "homepage": "https://carsten-bach.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create printable labels with blocks.",
+            "homepage": "https://websites.fuer.figuren.theater",
+            "keywords": [
+                "Label-Printing",
+                "blocks",
+                "gutenberg",
+                "print.css",
+                "theater",
+                "wordpress",
+                "wordpress-plugin"
+            ],
+            "support": {
+                "email": "info@figuren.theater",
+                "issues": "https://github.com/figuren-theater/label-printing/issues",
+                "source": "https://github.com/figuren-theater/label-printing"
+            },
+            "time": "2023-10-13T10:38:09+00:00"
         },
         {
             "name": "figuren-theater/twentytwentytwo-ft-core",
