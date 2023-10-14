@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08b26a354ddfd5e4b9b2690d214a7c1c",
+    "content-hash": "8fb3ba0adaa6b3f21342cb88011dbc10",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1917,22 +1917,22 @@
         },
         {
             "name": "figuren-theater/ft-theming",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-theming.git",
-                "reference": "d3edb63b17c7e18dd241eba1effa13436894ce13"
+                "reference": "dc317bd35aa85b5026845bd26788fe4296dd5a68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-theming/zipball/d3edb63b17c7e18dd241eba1effa13436894ce13",
-                "reference": "d3edb63b17c7e18dd241eba1effa13436894ce13",
+                "url": "https://api.github.com/repos/figuren-theater/ft-theming/zipball/dc317bd35aa85b5026845bd26788fe4296dd5a68",
+                "reference": "dc317bd35aa85b5026845bd26788fe4296dd5a68",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/ft-options": "^1",
+                "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/wp-better-emails": "^0.4.0"
+                "wpackagist-plugin/wp-better-emails": "0.4.0"
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*"
@@ -1988,7 +1988,7 @@
                 "issues": "https://github.com/figuren-theater/ft-theming/issues",
                 "source": "https://github.com/figuren-theater/ft-theming"
             },
-            "time": "2023-09-07T19:56:49+00:00"
+            "time": "2023-10-13T22:26:18+00:00"
         },
         {
             "name": "figuren-theater/install.php",
