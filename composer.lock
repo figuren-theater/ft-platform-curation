@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c6a6494df29996dc137a9df6cd187c2",
+    "content-hash": "23a490daf4e66b4509bad4cf34f6ca19",
     "packages": [
         {
             "name": "10up/distributor",
@@ -536,24 +536,24 @@
         },
         {
             "name": "figuren-theater/ft-admin-ui",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-admin-ui.git",
-                "reference": "f89f0ffa023635465d9b02989f05649d62b27582"
+                "reference": "3a3c99c108b061c5869f1e1ee4d44e7295a0344a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/f89f0ffa023635465d9b02989f05649d62b27582",
-                "reference": "f89f0ffa023635465d9b02989f05649d62b27582",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/3a3c99c108b061c5869f1e1ee4d44e7295a0344a",
+                "reference": "3a3c99c108b061c5869f1e1ee4d44e7295a0344a",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/ft-options": "^1",
+                "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/disable-gutenberg-blocks": "^1.0",
-                "wpackagist-plugin/emoji-toolbar": "^1.2",
-                "wpackagist-plugin/heartbeat-control": "^2.0"
+                "wpackagist-plugin/disable-gutenberg-blocks": "1.0.9",
+                "wpackagist-plugin/emoji-toolbar": "1.2.4",
+                "wpackagist-plugin/heartbeat-control": "2.0.1"
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*"
@@ -614,7 +614,7 @@
                 "issues": "https://github.com/figuren-theater/ft-admin-ui/issues",
                 "source": "https://github.com/figuren-theater/ft-admin-ui"
             },
-            "time": "2023-09-11T14:05:35+00:00"
+            "time": "2023-10-15T12:30:41+00:00"
         },
         {
             "name": "figuren-theater/ft-core-block-domaincheck",
