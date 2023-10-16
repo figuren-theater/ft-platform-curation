@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7316d186f1853c0b580553f04850f3d4",
+    "content-hash": "66e3a8d1d2dbd6f25ac6d646ec3dc48f",
     "packages": [
         {
             "name": "10up/distributor",
@@ -536,16 +536,16 @@
         },
         {
             "name": "figuren-theater/ft-admin-ui",
-            "version": "1.1.5",
+            "version": "1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-admin-ui.git",
-                "reference": "3a3c99c108b061c5869f1e1ee4d44e7295a0344a"
+                "reference": "175a569fce1aad785c755353d654f804cf5b9a36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/3a3c99c108b061c5869f1e1ee4d44e7295a0344a",
-                "reference": "3a3c99c108b061c5869f1e1ee4d44e7295a0344a",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/175a569fce1aad785c755353d654f804cf5b9a36",
+                "reference": "175a569fce1aad785c755353d654f804cf5b9a36",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +614,7 @@
                 "issues": "https://github.com/figuren-theater/ft-admin-ui/issues",
                 "source": "https://github.com/figuren-theater/ft-admin-ui"
             },
-            "time": "2023-10-15T12:30:41+00:00"
+            "time": "2023-10-15T18:07:38+00:00"
         },
         {
             "name": "figuren-theater/ft-core-block-domaincheck",
