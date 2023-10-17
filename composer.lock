@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7316d186f1853c0b580553f04850f3d4",
+    "content-hash": "81e05ea0b36be51718b83244b817b420",
     "packages": [
         {
             "name": "10up/distributor",
@@ -927,22 +927,22 @@
         },
         {
             "name": "figuren-theater/ft-media",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-media.git",
-                "reference": "23f74228d105d82b63ad2760714eb39fb2aad34b"
+                "reference": "0f575a591cbfd02f85a68c026913f3447b99d15f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/23f74228d105d82b63ad2760714eb39fb2aad34b",
-                "reference": "23f74228d105d82b63ad2760714eb39fb2aad34b",
+                "url": "https://api.github.com/repos/figuren-theater/ft-media/zipball/0f575a591cbfd02f85a68c026913f3447b99d15f",
+                "reference": "0f575a591cbfd02f85a68c026913f3447b99d15f",
                 "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/attachment-taxonomies": "1.1.1",
+                "wpackagist-plugin/attachment-taxonomies": "1.2.0",
                 "wpackagist-plugin/format-media-titles": "1.0.0",
                 "wpackagist-plugin/modern-images-wp": "1.1.0"
             },
@@ -1003,7 +1003,7 @@
                 "issues": "https://github.com/figuren-theater/ft-media/issues",
                 "source": "https://github.com/figuren-theater/ft-media"
             },
-            "time": "2023-10-13T21:38:58+00:00"
+            "time": "2023-10-16T21:52:46+00:00"
         },
         {
             "name": "figuren-theater/ft-network-block-editor",
@@ -3379,15 +3379,15 @@
         },
         {
             "name": "wpackagist-plugin/attachment-taxonomies",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/attachment-taxonomies/",
-                "reference": "tags/1.1.1"
+                "reference": "tags/1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/attachment-taxonomies.1.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/attachment-taxonomies.1.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
