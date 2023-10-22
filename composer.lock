@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6402c7d545eb63deb2bcbd5d80444a26",
+    "content-hash": "0091fa50d8bba5299547c4902039a48a",
     "packages": [
         {
             "name": "10up/distributor",
@@ -663,16 +663,16 @@
         },
         {
             "name": "figuren-theater/ft-data",
-            "version": "1.0.31",
+            "version": "1.0.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-data",
-                "reference": "3772bee6a48d58b2715a777b0afb3c8c1ad6ab57"
+                "reference": "4f464de25543912f3215cd21c22a4a6814a3fe7b"
             },
             "require": {
                 "10up/distributor": "1.9.1",
                 "devgeniem/shadow-taxonomy": "dev-master",
-                "figuren-theater/ft-network-sourcelinks": "0.9.0",
+                "figuren-theater/ft-network-sourcelinks": "0.9.1",
                 "figuren-theater/ft-options": "*",
                 "humanmade/utility-taxonomy": "1.4.4",
                 "johnbillion/extended-cpts": "5.0.5",
@@ -749,7 +749,7 @@
                 "issues": "https://github.com/figuren-theater/ft-data/issues",
                 "source": "https://github.com/figuren-theater/ft-data"
             },
-            "time": "2023-10-22T14:53:42+00:00"
+            "time": "2023-10-22T15:15:02+00:00"
         },
         {
             "name": "figuren-theater/ft-interactive",
@@ -1112,11 +1112,11 @@
         },
         {
             "name": "figuren-theater/ft-network-sourcelinks",
-            "version": "0.9.0",
+            "version": "0.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-network-sourcelinks",
-                "reference": "20fe74bb2530997c0e2056411dcd996526a45ea8"
+                "reference": "a3045e35bd01b99285c6c4708a5def5d4267ad96"
             },
             "require": {
                 "johnpbloch/wordpress": "^6.0",
@@ -1153,7 +1153,7 @@
                 "issues": "https://github.com/figuren-theater/ft-network-sourcelinks/issues",
                 "source": "https://github.com/figuren-theater/ft-network-sourcelinks"
             },
-            "time": "2023-05-25T10:46:45+00:00"
+            "time": "2023-10-16T22:03:25+00:00"
         },
         {
             "name": "figuren-theater/ft-onboarding",
