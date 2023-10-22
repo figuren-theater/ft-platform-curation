@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1942c6b70cc20a6584db017d195dbb4d",
+    "content-hash": "6402c7d545eb63deb2bcbd5d80444a26",
     "packages": [
         {
             "name": "10up/distributor",
@@ -663,24 +663,27 @@
         },
         {
             "name": "figuren-theater/ft-data",
-            "version": "1.0.28",
+            "version": "1.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-data",
-                "reference": "b317b53d22f091e82a19c7a049d3009d634bdae7"
+                "reference": "3772bee6a48d58b2715a777b0afb3c8c1ad6ab57"
             },
             "require": {
-                "10up/distributor": "^1.9",
+                "10up/distributor": "1.9.1",
                 "devgeniem/shadow-taxonomy": "dev-master",
-                "figuren-theater/ft-network-sourcelinks": ">=0.7.0",
-                "figuren-theater/ft-options": "^1",
-                "humanmade/utility-taxonomy": "^1.4",
-                "johnbillion/extended-cpts": "^5",
+                "figuren-theater/ft-network-sourcelinks": "0.9.0",
+                "figuren-theater/ft-options": "*",
+                "humanmade/utility-taxonomy": "1.4.4",
+                "johnbillion/extended-cpts": "5.0.5",
                 "php": ">=7.1",
                 "rss-bridge/rss-bridge": "2022-06-14",
                 "tlovett1/feed-pull": "dev-master",
                 "wpackagist-plugin/distributor-remote-quickedit": "*",
-                "wpackagist-plugin/term-management-tools": "^2.0"
+                "wpackagist-plugin/term-management-tools": "2.0.1"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -698,6 +701,9 @@
                 }
             },
             "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
                 "files": [
                     "inc/distributor/namespace.php",
                     "inc/distributor-remote-quickedit/namespace.php",
@@ -711,9 +717,6 @@
                     "inc/term-management-tools/namespace.php",
                     "inc/utility-taxonomy/namespace.php",
                     "inc/namespace.php"
-                ],
-                "classmap": [
-                    "inc/"
                 ]
             },
             "license": [
@@ -746,7 +749,7 @@
                 "issues": "https://github.com/figuren-theater/ft-data/issues",
                 "source": "https://github.com/figuren-theater/ft-data"
             },
-            "time": "2023-04-20T15:30:33+00:00"
+            "time": "2023-10-22T14:53:42+00:00"
         },
         {
             "name": "figuren-theater/ft-interactive",
