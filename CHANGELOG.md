@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.1...HEAD)
+
+## [0.2.1](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.0...0.2.1) - 2023-10-22
+
+### 🐛 Fixed
+
+- Downgrade PRODUCTION requirement for php-version to last stable ([#45](https://github.com/figuren-theater/ft-platform-collection/pull/45))
 
 ## [0.2.0](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.7...0.2.0) - 2023-10-22
 
