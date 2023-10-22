@@ -26,12 +26,12 @@
         "source": "https://github.com/figuren-theater/ft-platform"
     },
     "require": {
-        "php": ">=8.0.19",
+        "php": ">=8.1.0",
         "figuren-theater/blogs": "*",
         "figuren-theater/deprecated_figuren_theater_v2": "*",
         "figuren-theater/deprecated_plugins_v2": "*",
         "figuren-theater/ft-admin-ui": "1.2.0",
-        "figuren-theater/ft-data": "1.0.28",
+        "figuren-theater/ft-data": "1.0.32",
         "figuren-theater/ft-interactive": "1.1.1",
         "figuren-theater/ft-maintenance": "1.2.2",
         "figuren-theater/ft-media": "1.2.0",
@@ -154,13 +154,13 @@
     "prefer-stable": true,
     "config": {
         "allow-plugins": {
-            "koodimonni/composer-dropin-installer": true,
             "composer/installers": true,
-            "johnpbloch/wordpress-core-installer": true,
-            "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "ergebnis/composer-normalize": true,
-            "inpsyde/wp-translation-downloader": true
+            "inpsyde/wp-translation-downloader": true,
+            "johnpbloch/wordpress-core-installer": true,
+            "koodimonni/composer-dropin-installer": true,
+            "phpstan/extension-installer": true
         }
     }
 }
