@@ -2,7 +2,29 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.7...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.0...HEAD)
+
+## [0.2.0](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.7...0.2.0) - 2023-10-22
+
+### 🚀 Added
+
+- New 'ft-theater' module with all ... THEATER ([#36](https://github.com/figuren-theater/ft-platform-collection/pull/36))
+- Add README ([#35](https://github.com/figuren-theater/ft-platform-collection/pull/35))
+
+### Dependency Updates & Maintenance
+
+- Update required php-version to be 8.1 (matching PRODUCTION) and some dependencies ([#44](https://github.com/figuren-theater/ft-platform-collection/pull/44))
+- Bump figuren-theater/ft-admin-ui from 1.1.5 to 1.2.0 ([#43](https://github.com/figuren-theater/ft-platform-collection/pull/43))
+- Bump figuren-theater/ft-media from 1.1.1 to 1.2.0 ([#42](https://github.com/figuren-theater/ft-platform-collection/pull/42))
+- Upgrading figuren-theater/ft-performance (1.3.1 => 1.3.2) ([#40](https://github.com/figuren-theater/ft-platform-collection/pull/40))
+- Upgrading figuren-theater/ft-admin-ui (1.1.4 => 1.1.5) ([#39](https://github.com/figuren-theater/ft-platform-collection/pull/39))
+- Upgrading figuren-theater/ft-theater (0.1.0 => 0.1.1) ([#38](https://github.com/figuren-theater/ft-platform-collection/pull/38))
+- Upgrading figuren-theater/ft-maintenance (1.2.1 => 1.2.2) ([#37](https://github.com/figuren-theater/ft-platform-collection/pull/37))
+- Upgrading figuren-theater/ft-security (1.4.3 => 1.4.4) ([#34](https://github.com/figuren-theater/ft-platform-collection/pull/34))
+- Upgrading figuren-theater/ft-privacy (1.2.1 => 1.2.3) ([#33](https://github.com/figuren-theater/ft-platform-collection/pull/33))
+- Upgrading figuren-theater/ft-media (1.1.0 => 1.1.1) ([#32](https://github.com/figuren-theater/ft-platform-collection/pull/32))
+- Upgrading figuren-theater/ft-theming (1.1.1 => 1.1.2) ([#31](https://github.com/figuren-theater/ft-platform-collection/pull/31))
+- Set fixed versions for all 3rd-party-deps & UPDATE internal deps ([#30](https://github.com/figuren-theater/ft-platform-collection/pull/30))
 
 ## [0.1.7](https://github.com/figuren-theater/ft-platform-collection/compare/0.1.6...0.1.7) - 2023-10-13
 
