@@ -99,10 +99,6 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/figuren-theater/ft-network-block-patterns"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/figuren-theater/ft-network-sourcelinks"
         },
         {
