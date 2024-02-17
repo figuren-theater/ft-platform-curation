@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "868d35854da82b45bb13d2068272beb4",
+    "content-hash": "0c823b587328eebaab2d3185e18de0e6",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1074,14 +1074,21 @@
             "version": "1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-network-block-patterns",
+                "url": "https://github.com/figuren-theater/ft-network-block-patterns.git",
                 "reference": "11e012b73d5b89d2904ef85201d8cc2f89d4135e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-network-block-patterns/zipball/11e012b73d5b89d2904ef85201d8cc2f89d4135e",
+                "reference": "11e012b73d5b89d2904ef85201d8cc2f89d4135e",
+                "shasum": ""
             },
             "require": {
                 "johnpbloch/wordpress": "^6.0",
                 "php": ">=7.1"
             },
             "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -6478,5 +6485,5 @@
         "php": ">=8.0.30"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
