@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "170d3847a0da49cf0c101cdccf29e752",
+    "content-hash": "868d35854da82b45bb13d2068272beb4",
     "packages": [
         {
             "name": "10up/distributor",
@@ -839,23 +839,23 @@
         },
         {
             "name": "figuren-theater/ft-maintenance",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-maintenance.git",
-                "reference": "ed8d40cd8c9aa0df2ee6fe9a4fad8d89972d62bf"
+                "reference": "e6bc9af498a270fd28831cf5cd0127a372956119"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/ed8d40cd8c9aa0df2ee6fe9a4fad8d89972d62bf",
-                "reference": "ed8d40cd8c9aa0df2ee6fe9a4fad8d89972d62bf",
+                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/e6bc9af498a270fd28831cf5cd0127a372956119",
+                "reference": "e6bc9af498a270fd28831cf5cd0127a372956119",
                 "shasum": ""
             },
             "require": {
                 "devgeniem/wp-cron-runner": "1.0.3",
                 "figuren-theater/ft-options": "*",
-                "johnbillion/query-monitor": "3.13.1",
-                "johnbillion/wp-crontrol": "1.15.3",
+                "johnbillion/query-monitor": "3.15.0",
+                "johnbillion/wp-crontrol": "1.16.1",
                 "koodimonni/composer-dropin-installer": "1.4",
                 "php": ">=7.1",
                 "pixelstudio/wp-sync-db": "1.7.1",
@@ -864,6 +864,9 @@
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*"
+            },
+            "suggest": {
+                "figuren-theater/ft-routes": "Contains the mandatory filter, which will remove REST API enpoints from public."
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -882,6 +885,7 @@
                 "files": [
                     "inc/blog-management/namespace.php",
                     "inc/dashboard-widget/namespace.php",
+                    "inc/health-checks/namespace.php",
                     "inc/mode/namespace.php",
                     "inc/multisite-enhancements/namespace.php",
                     "inc/query-monitor/namespace.php",
@@ -926,7 +930,7 @@
                 "issues": "https://github.com/figuren-theater/ft-maintenance/issues",
                 "source": "https://github.com/figuren-theater/ft-maintenance"
             },
-            "time": "2023-10-14T22:57:36+00:00"
+            "time": "2024-02-10T01:36:27+00:00"
         },
         {
             "name": "figuren-theater/ft-media",
@@ -2741,16 +2745,16 @@
         },
         {
             "name": "johnbillion/query-monitor",
-            "version": "3.13.1",
+            "version": "3.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/query-monitor.git",
-                "reference": "e82322cb1f54348f0bc9d61a99f495c48862e43c"
+                "reference": "c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/query-monitor/zipball/e82322cb1f54348f0bc9d61a99f495c48862e43c",
-                "reference": "e82322cb1f54348f0bc9d61a99f495c48862e43c",
+                "url": "https://api.github.com/repos/johnbillion/query-monitor/zipball/c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b",
+                "reference": "c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b",
                 "shasum": ""
             },
             "require": {
@@ -2765,18 +2769,19 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "0.7.2",
                 "ergebnis/composer-normalize": "^2",
                 "johnbillion/plugin-infrastructure": "dev-trunk",
-                "lucatume/wp-browser": "^3.0.21",
+                "lucatume/wp-browser": "3.2.1",
                 "phpcompatibility/phpcompatibility-wp": "2.1.4",
-                "phpstan/phpstan": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "roots/wordpress": "*",
+                "phpstan/phpstan": "1.10.39",
+                "phpstan/phpstan-phpunit": "1.3.15",
+                "roots/wordpress-core-installer": "1.100.0",
+                "roots/wordpress-full": "*",
                 "squizlabs/php_codesniffer": "3.7.1",
                 "szepeviktor/phpstan-wordpress": "1.3.0",
                 "wp-coding-standards/wpcs": "2.3.0"
             },
             "type": "wordpress-plugin",
             "extra": {
-                "wordpress-install-dir": "vendor/roots/wordpress"
+                "wordpress-install-dir": "vendor/wordpress/wordpress"
             },
             "autoload": {
                 "classmap": [
@@ -2808,25 +2813,25 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-15T14:57:34+00:00"
+            "time": "2023-11-10T18:27:20+00:00"
         },
         {
             "name": "johnbillion/wp-crontrol",
-            "version": "1.15.3",
+            "version": "1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/wp-crontrol.git",
-                "reference": "d9451be673eac267114c623b1f453630c8751f91"
+                "reference": "d0d1b118d77d34ffc414d601bd633f7b629549de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/wp-crontrol/zipball/d9451be673eac267114c623b1f453630c8751f91",
-                "reference": "d9451be673eac267114c623b1f453630c8751f91",
+                "url": "https://api.github.com/repos/johnbillion/wp-crontrol/zipball/d0d1b118d77d34ffc414d601bd633f7b629549de",
+                "reference": "d0d1b118d77d34ffc414d601bd633f7b629549de",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0",
-                "php": ">=5.6"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "codeception/module-asserts": "^1.0",
@@ -2879,7 +2884,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-30T17:36:52+00:00"
+            "time": "2023-11-16T22:50:41+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
