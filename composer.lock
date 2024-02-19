@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c823b587328eebaab2d3185e18de0e6",
+    "content-hash": "da3891adf4ea822e488790087c2e104b",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1997,16 +1997,16 @@
         },
         {
             "name": "figuren-theater/ft-theming",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-theming.git",
-                "reference": "dc317bd35aa85b5026845bd26788fe4296dd5a68"
+                "reference": "25e7bc9ba71318f6cf618359746d0a6e30b0a2b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-theming/zipball/dc317bd35aa85b5026845bd26788fe4296dd5a68",
-                "reference": "dc317bd35aa85b5026845bd26788fe4296dd5a68",
+                "url": "https://api.github.com/repos/figuren-theater/ft-theming/zipball/25e7bc9ba71318f6cf618359746d0a6e30b0a2b8",
+                "reference": "25e7bc9ba71318f6cf618359746d0a6e30b0a2b8",
                 "shasum": ""
             },
             "require": {
@@ -2027,6 +2027,7 @@
             },
             "autoload": {
                 "files": [
+                    "inc/post-type-templates/namespace.php",
                     "inc/theming/defer-async-loader.php",
                     "inc/theming/favicon-fallback.php",
                     "inc/theming/no-jquery-migrate.php",
@@ -2068,7 +2069,7 @@
                 "issues": "https://github.com/figuren-theater/ft-theming/issues",
                 "source": "https://github.com/figuren-theater/ft-theming"
             },
-            "time": "2023-10-13T22:26:18+00:00"
+            "time": "2024-02-16T20:00:21+00:00"
         },
         {
             "name": "figuren-theater/install.php",
@@ -6485,5 +6486,5 @@
         "php": ">=8.0.30"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
