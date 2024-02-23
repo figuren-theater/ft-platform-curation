@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "208d4d71dc7114f9f4c5c5dda0d39383",
+    "content-hash": "56fd3b7a8e70d938fdbee3576f8a042f",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1492,16 +1492,16 @@
         },
         {
             "name": "figuren-theater/ft-routes",
-            "version": "1.1.4",
+            "version": "1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-routes.git",
-                "reference": "27581b8ee912c5fc8ce40cadf386e8cb6606bf6b"
+                "reference": "185284d04b90e0a96738d72876a2aedc2522309f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/27581b8ee912c5fc8ce40cadf386e8cb6606bf6b",
-                "reference": "27581b8ee912c5fc8ce40cadf386e8cb6606bf6b",
+                "url": "https://api.github.com/repos/figuren-theater/ft-routes/zipball/185284d04b90e0a96738d72876a2aedc2522309f",
+                "reference": "185284d04b90e0a96738d72876a2aedc2522309f",
                 "shasum": ""
             },
             "require": {
@@ -1572,7 +1572,7 @@
                 "issues": "https://github.com/figuren-theater/ft-routes/issues",
                 "source": "https://github.com/figuren-theater/ft-routes"
             },
-            "time": "2024-02-10T01:44:33+00:00"
+            "time": "2024-02-21T20:48:39+00:00"
         },
         {
             "name": "figuren-theater/ft-security",
