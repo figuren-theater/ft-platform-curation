@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97b0300f69ab636d7ef2b178e10dd7fd",
+    "content-hash": "046d39fb9775ed0ba54b2bdc29eca8b3",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1167,22 +1167,25 @@
         },
         {
             "name": "figuren-theater/ft-onboarding",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-onboarding",
-                "reference": "5c38862f7cd8364c8ab2b4c2c7e41bbf11499f81"
+                "reference": "a0c56aee6697e5ec7d3b5d83e042f01593b4c237"
             },
             "require": {
-                "figuren-theater/ft-core-block-domaincheck": "^0.1",
-                "figuren-theater/ft-options": "^1",
-                "figuren-theater/install.php": "^1.1",
+                "figuren-theater/ft-core-block-domaincheck": "0.1.2",
+                "figuren-theater/ft-options": "*",
+                "figuren-theater/install.php": "1.4.0",
                 "php": ">=7.1",
-                "stuttter/wp-multi-network": "^2.5",
-                "stuttter/wp-user-profiles": "^2.6",
-                "wpackagist-plugin/impressum": "^2.0",
-                "wpackagist-plugin/preferred-languages": "1.8.0",
-                "wpackagist-plugin/wp-approve-user": "^10"
+                "stuttter/wp-multi-network": "2.5.2",
+                "stuttter/wp-user-profiles": "2.6.2",
+                "wpackagist-plugin/impressum": "2.0.4",
+                "wpackagist-plugin/preferred-languages": "2.2.2",
+                "wpackagist-plugin/wp-approve-user": "11"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "^1.1"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1199,6 +1202,9 @@
                 }
             },
             "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
                 "files": [
                     "inc/ft-core-block-domaincheck/namespace.php",
                     "inc/preferred-languages/namespace.php",
@@ -1211,9 +1217,6 @@
                     "inc/wp-multi-network/namespace.php",
                     "inc/wp-user-profiles/namespace.php",
                     "inc/namespace.php"
-                ],
-                "classmap": [
-                    "inc/"
                 ]
             },
             "license": [
@@ -1244,7 +1247,7 @@
                 "issues": "https://github.com/figuren-theater/ft-onboarding/issues",
                 "source": "https://github.com/figuren-theater/ft-onboarding"
             },
-            "time": "2023-08-22T23:05:55+00:00"
+            "time": "2024-02-28T10:03:19+00:00"
         },
         {
             "name": "figuren-theater/ft-options",
@@ -2065,16 +2068,16 @@
         },
         {
             "name": "figuren-theater/install.php",
-            "version": "1.3.2",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/install.php.git",
-                "reference": "21dd9ea85d618efdff278bf4940b0e7db510a26d"
+                "reference": "b0806079278bc6fa606f7731c32765cdec65233b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/install.php/zipball/21dd9ea85d618efdff278bf4940b0e7db510a26d",
-                "reference": "21dd9ea85d618efdff278bf4940b0e7db510a26d",
+                "url": "https://api.github.com/repos/figuren-theater/install.php/zipball/b0806079278bc6fa606f7731c32765cdec65233b",
+                "reference": "b0806079278bc6fa606f7731c32765cdec65233b",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2085,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "*"
+                "figuren-theater/code-quality": "^1.1"
             },
             "type": "wordpress-dropin",
             "notification-url": "https://packagist.org/downloads/",
@@ -2120,7 +2123,7 @@
                 "issues": "https://github.com/figuren-theater/install.php/issues",
                 "source": "https://github.com/figuren-theater/install.php"
             },
-            "time": "2023-09-14T09:37:00+00:00"
+            "time": "2024-02-28T09:49:53+00:00"
         },
         {
             "name": "figuren-theater/katharina-muschiol.de",
@@ -3747,15 +3750,15 @@
         },
         {
             "name": "wpackagist-plugin/impressum",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/impressum/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.0.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/impressum.2.0.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/impressum.2.0.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3891,15 +3894,15 @@
         },
         {
             "name": "wpackagist-plugin/preferred-languages",
-            "version": "1.8.0",
+            "version": "2.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/preferred-languages/",
-                "reference": "tags/1.8.0"
+                "reference": "tags/2.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/preferred-languages.1.8.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/preferred-languages.2.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4089,15 +4092,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-approve-user",
-            "version": "10",
+            "version": "11",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-approve-user/",
-                "reference": "tags/10"
+                "reference": "tags/11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-approve-user.10.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-approve-user.11.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
