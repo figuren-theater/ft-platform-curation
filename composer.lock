@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "046d39fb9775ed0ba54b2bdc29eca8b3",
+    "content-hash": "5cd3248a5925731c7ea2982aed292821",
     "packages": [
         {
             "name": "10up/distributor",
@@ -536,16 +536,16 @@
         },
         {
             "name": "figuren-theater/ft-admin-ui",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-admin-ui.git",
-                "reference": "249c04ad80dde87ba9c4e8a177dab8270e53c1e8"
+                "reference": "8a6f32b0d6732ff8f775745c4780ed9e8d50be78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/249c04ad80dde87ba9c4e8a177dab8270e53c1e8",
-                "reference": "249c04ad80dde87ba9c4e8a177dab8270e53c1e8",
+                "url": "https://api.github.com/repos/figuren-theater/ft-admin-ui/zipball/8a6f32b0d6732ff8f775745c4780ed9e8d50be78",
+                "reference": "8a6f32b0d6732ff8f775745c4780ed9e8d50be78",
                 "shasum": ""
             },
             "require": {
@@ -556,7 +556,7 @@
                 "wpackagist-plugin/heartbeat-control": "2.0.1"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "*"
+                "figuren-theater/code-quality": "^1.1"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -614,7 +614,7 @@
                 "issues": "https://github.com/figuren-theater/ft-admin-ui/issues",
                 "source": "https://github.com/figuren-theater/ft-admin-ui"
             },
-            "time": "2023-10-16T21:44:59+00:00"
+            "time": "2024-02-29T15:21:39+00:00"
         },
         {
             "name": "figuren-theater/ft-core-block-domaincheck",
