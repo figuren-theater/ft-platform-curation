@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f9554a80ee5be3871cfea331af8bf873",
+    "content-hash": "3232f08d13d45be7f5016f377bbfb507",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1670,35 +1670,48 @@
         },
         {
             "name": "figuren-theater/ft-seo",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-seo",
-                "reference": "886354bd5e0dee7439aee5c482ab82e90bae5d46"
+                "reference": "a3ab46f7c37dcc6d8731b0e531cbcba3a9c85c3f"
             },
             "require": {
-                "figuren-theater/ft-options": "^1",
+                "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/wordpress-seo": "^19.8"
+                "wpackagist-plugin/sharing-image": "^2.0",
+                "wpackagist-plugin/wordpress-seo": "19.8"
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "^1.1"
+            },
+            "suggest": {
+                "figuren-theater/ft-media": "Contains the mandatory function to shrink and minify images."
             },
             "type": "wordpress-muplugin",
             "extra": {
                 "altis": {
                     "install-overrides": [
+                        "wpackagist-plugin/sharing-image",
                         "wpackagist-plugin/wordpress-seo"
                     ]
                 }
             },
             "autoload": {
+                "classmap": [
+                    "inc/"
+                ],
                 "files": [
+                    "inc/sharing-image/admin-ui.php",
+                    "inc/sharing-image/frontend.php",
+                    "inc/sharing-image/generation.php",
+                    "inc/sharing-image/options.php",
+                    "inc/sharing-image/namespace.php",
                     "inc/wordpress-seo/admin-ui.php",
                     "inc/wordpress-seo/open-graph.php",
                     "inc/wordpress-seo/options.php",
                     "inc/wordpress-seo/namespace.php",
                     "inc/namespace.php"
-                ],
-                "classmap": [
-                    "inc/"
                 ]
             },
             "license": [
@@ -1729,7 +1742,7 @@
                 "issues": "https://github.com/figuren-theater/ft-seo/issues",
                 "source": "https://github.com/figuren-theater/ft-seo"
             },
-            "time": "2023-01-19T10:25:29+00:00"
+            "time": "2024-02-24T14:22:47+00:00"
         },
         {
             "name": "figuren-theater/ft-site-editing",
@@ -3947,6 +3960,24 @@
             "homepage": "https://wordpress.org/plugins/quicklink/"
         },
         {
+            "name": "wpackagist-plugin/sharing-image",
+            "version": "2.0.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sharing-image/",
+                "reference": "tags/2.0.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sharing-image.2.0.17.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sharing-image/"
+        },
+        {
             "name": "wpackagist-plugin/social-sharing-block",
             "version": "1.0.0",
             "source": {
@@ -4074,15 +4105,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "19.14",
+            "version": "19.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/19.14"
+                "reference": "tags/19.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.19.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
