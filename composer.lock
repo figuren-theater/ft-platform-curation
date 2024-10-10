@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3232f08d13d45be7f5016f377bbfb507",
+    "content-hash": "24b24330eed45114ece84550e3eb3f9e",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1167,11 +1167,11 @@
         },
         {
             "name": "figuren-theater/ft-onboarding",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-onboarding",
-                "reference": "a0c56aee6697e5ec7d3b5d83e042f01593b4c237"
+                "reference": "a3969458500855aa55a5d15aa422578bb6b0537d"
             },
             "require": {
                 "figuren-theater/ft-core-block-domaincheck": "0.1.2",
@@ -1180,8 +1180,8 @@
                 "php": ">=7.1",
                 "stuttter/wp-multi-network": "2.5.2",
                 "stuttter/wp-user-profiles": "2.6.2",
-                "wpackagist-plugin/impressum": "2.0.4",
-                "wpackagist-plugin/preferred-languages": "2.2.2",
+                "wpackagist-plugin/impressum": "2.0.5",
+                "wpackagist-plugin/preferred-languages": "2.3.0",
                 "wpackagist-plugin/wp-approve-user": "11"
             },
             "require-dev": {
@@ -1247,7 +1247,7 @@
                 "issues": "https://github.com/figuren-theater/ft-onboarding/issues",
                 "source": "https://github.com/figuren-theater/ft-onboarding"
             },
-            "time": "2024-02-28T10:03:19+00:00"
+            "time": "2024-10-09T18:39:27+00:00"
         },
         {
             "name": "figuren-theater/ft-options",
@@ -3763,15 +3763,15 @@
         },
         {
             "name": "wpackagist-plugin/impressum",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/impressum/",
-                "reference": "tags/2.0.4"
+                "reference": "tags/2.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/impressum.2.0.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/impressum.2.0.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3907,15 +3907,15 @@
         },
         {
             "name": "wpackagist-plugin/preferred-languages",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/preferred-languages/",
-                "reference": "tags/2.2.2"
+                "reference": "tags/2.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/preferred-languages.2.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/preferred-languages.2.3.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
