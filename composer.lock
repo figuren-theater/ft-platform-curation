@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24b24330eed45114ece84550e3eb3f9e",
+    "content-hash": "4938a8db1655f55d0759ab9185686e2c",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1578,27 +1578,27 @@
         },
         {
             "name": "figuren-theater/ft-security",
-            "version": "1.4.6",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-security.git",
-                "reference": "686dc9cf858dabd6e9cb01832b841b564525c577"
+                "reference": "06ce8605fd77f7cf147e38dbb28d69b519de27c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/686dc9cf858dabd6e9cb01832b841b564525c577",
-                "reference": "686dc9cf858dabd6e9cb01832b841b564525c577",
+                "url": "https://api.github.com/repos/figuren-theater/ft-security/zipball/06ce8605fd77f7cf147e38dbb28d69b519de27c3",
+                "reference": "06ce8605fd77f7cf147e38dbb28d69b519de27c3",
                 "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "*",
                 "php": ">=7.1",
-                "wpackagist-plugin/email-address-encoder": "1.0.23",
-                "wpackagist-plugin/limit-login-attempts-reloaded": "2.26.5",
+                "wpackagist-plugin/email-address-encoder": "1.0.24",
+                "wpackagist-plugin/limit-login-attempts-reloaded": "2.26.13",
                 "wpackagist-plugin/passwords-evolved": "1.3.3",
-                "wpackagist-plugin/two-factor": "0.8.2",
+                "wpackagist-plugin/two-factor": "0.9.1",
                 "wpackagist-plugin/wp-author-slug": "4",
-                "wpackagist-plugin/wps-hide-login": "1.9.13.2"
+                "wpackagist-plugin/wps-hide-login": "1.9.17.1"
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*"
@@ -1666,7 +1666,7 @@
                 "issues": "https://github.com/figuren-theater/ft-security/issues",
                 "source": "https://github.com/figuren-theater/ft-security"
             },
-            "time": "2024-02-21T16:59:36+00:00"
+            "time": "2024-10-10T11:13:20+00:00"
         },
         {
             "name": "figuren-theater/ft-seo",
@@ -3583,15 +3583,15 @@
         },
         {
             "name": "wpackagist-plugin/email-address-encoder",
-            "version": "1.0.23",
+            "version": "1.0.24",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/email-address-encoder/",
-                "reference": "tags/1.0.23"
+                "reference": "tags/1.0.24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/email-address-encoder.1.0.23.zip"
+                "url": "https://downloads.wordpress.org/plugin/email-address-encoder.1.0.24.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3799,15 +3799,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.26.5",
+            "version": "2.26.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.26.5"
+                "reference": "tags/2.26.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.13.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4087,15 +4087,15 @@
         },
         {
             "name": "wpackagist-plugin/two-factor",
-            "version": "0.8.2",
+            "version": "0.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/two-factor/",
-                "reference": "tags/0.8.2"
+                "reference": "tags/0.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/two-factor.0.8.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/two-factor.0.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4195,15 +4195,15 @@
         },
         {
             "name": "wpackagist-plugin/wps-hide-login",
-            "version": "1.9.13.2",
+            "version": "1.9.17.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wps-hide-login/",
-                "reference": "tags/1.9.13.2"
+                "reference": "tags/1.9.17.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.13.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wps-hide-login.1.9.17.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
