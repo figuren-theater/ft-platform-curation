@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b0b186a99e041b8412af7b54e116627",
+    "content-hash": "e51de9947f7c570793b8288206fc2bf3",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1170,8 +1170,14 @@
             "version": "1.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-onboarding",
+                "url": "https://github.com/figuren-theater/ft-onboarding.git",
                 "reference": "a3969458500855aa55a5d15aa422578bb6b0537d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-onboarding/zipball/a3969458500855aa55a5d15aa422578bb6b0537d",
+                "reference": "a3969458500855aa55a5d15aa422578bb6b0537d",
+                "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-core-block-domaincheck": "0.1.2",
@@ -1202,9 +1208,6 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "inc/"
-                ],
                 "files": [
                     "inc/ft-core-block-domaincheck/namespace.php",
                     "inc/preferred-languages/namespace.php",
@@ -1217,8 +1220,12 @@
                     "inc/wp-multi-network/namespace.php",
                     "inc/wp-user-profiles/namespace.php",
                     "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -1237,9 +1244,9 @@
             "description": "Onboarding of new users, site- and user creation for a WordPress Multisite network like figuren.theater.",
             "homepage": "https://websites.fuer.figuren.theater",
             "keywords": [
+                "Users",
                 "onboarding",
                 "registration",
-                "users",
                 "wordpress"
             ],
             "support": {
@@ -1673,8 +1680,14 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/figuren-theater/ft-seo",
+                "url": "https://github.com/figuren-theater/ft-seo.git",
                 "reference": "a3ab46f7c37dcc6d8731b0e531cbcba3a9c85c3f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/ft-seo/zipball/a3ab46f7c37dcc6d8731b0e531cbcba3a9c85c3f",
+                "reference": "a3ab46f7c37dcc6d8731b0e531cbcba3a9c85c3f",
+                "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "*",
@@ -1698,9 +1711,6 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "inc/"
-                ],
                 "files": [
                     "inc/sharing-image/admin-ui.php",
                     "inc/sharing-image/frontend.php",
@@ -1712,8 +1722,12 @@
                     "inc/wordpress-seo/options.php",
                     "inc/wordpress-seo/namespace.php",
                     "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0-or-later"
             ],
@@ -6527,5 +6541,5 @@
         "php": ">=8.0.30"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
