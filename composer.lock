@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4938a8db1655f55d0759ab9185686e2c",
+    "content-hash": "60bfa88b35a25f1ace1ebf1c8c404341",
     "packages": [
         {
             "name": "10up/distributor",
@@ -753,24 +753,24 @@
         },
         {
             "name": "figuren-theater/ft-interactive",
-            "version": "1.1.1",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-interactive.git",
-                "reference": "2092ab6cd84c411962a82225ac530a82c3688999"
+                "reference": "c6174040bfaa2a4ad939729a4799cff4f7e8d76a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-interactive/zipball/2092ab6cd84c411962a82225ac530a82c3688999",
-                "reference": "2092ab6cd84c411962a82225ac530a82c3688999",
+                "url": "https://api.github.com/repos/figuren-theater/ft-interactive/zipball/c6174040bfaa2a4ad939729a4799cff4f7e8d76a",
+                "reference": "c6174040bfaa2a4ad939729a4799cff4f7e8d76a",
                 "shasum": ""
             },
             "require": {
                 "figuren-theater/ft-options": "*",
-                "inpsyde/disable-comments": "1.0.2",
+                "inpsyde/disable-comments": "1.0.4",
                 "php": ">=7.1",
-                "wpackagist-plugin/antispam-bee": "2.11.5",
-                "wpackagist-plugin/disable-search": "2.0.1",
+                "wpackagist-plugin/antispam-bee": "2.11.6",
+                "wpackagist-plugin/disable-search": "2.1",
                 "wpackagist-plugin/formality": "1.5.7"
             },
             "require-dev": {
@@ -835,7 +835,7 @@
                 "issues": "https://github.com/figuren-theater/ft-interactive/issues",
                 "source": "https://github.com/figuren-theater/ft-interactive"
             },
-            "time": "2023-10-14T00:11:43+00:00"
+            "time": "2024-10-20T22:44:09+00:00"
         },
         {
             "name": "figuren-theater/ft-maintenance",
@@ -2470,23 +2470,23 @@
         },
         {
             "name": "inpsyde/disable-comments",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/inpsyde/disable-comments.git",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca"
+                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/4e37db876b7a603980a2c92b2358d331d084ffca",
-                "reference": "4e37db876b7a603980a2c92b2358d331d084ffca",
+                "url": "https://api.github.com/repos/inpsyde/disable-comments/zipball/28c254f57564f6a61b1b679f46ce3fe1e82d5614",
+                "reference": "28c254f57564f6a61b1b679f46ce3fe1e82d5614",
                 "shasum": ""
             },
             "require": {
                 "php": ">= 8.0"
             },
             "require-dev": {
-                "inpsyde/php-coding-standards": "^1",
+                "inpsyde/php-coding-standards": "^2.0@dev",
                 "inpsyde/wp-stubs-versions": "dev-latest",
                 "vimeo/psalm": "^5.10.0"
             },
@@ -2511,9 +2511,9 @@
             "description": "Entirely ditches comments as a WordPress feature.",
             "support": {
                 "issues": "https://github.com/inpsyde/disable-comments/issues",
-                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.2"
+                "source": "https://github.com/inpsyde/disable-comments/tree/1.0.4"
             },
-            "time": "2023-05-25T09:07:42+00:00"
+            "time": "2024-10-14T11:15:01+00:00"
         },
         {
             "name": "inpsyde/wp-translation-downloader",
@@ -3385,15 +3385,15 @@
         },
         {
             "name": "wpackagist-plugin/antispam-bee",
-            "version": "2.11.5",
+            "version": "2.11.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/antispam-bee/",
-                "reference": "tags/2.11.5"
+                "reference": "tags/2.11.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/antispam-bee.2.11.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3547,15 +3547,15 @@
         },
         {
             "name": "wpackagist-plugin/disable-search",
-            "version": "2.0.1",
+            "version": "2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/disable-search/",
-                "reference": "tags/2.0.1"
+                "reference": "tags/2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disable-search.2.0.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/disable-search.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
