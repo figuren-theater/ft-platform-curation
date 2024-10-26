@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "661686e0c2734e26ce2bdcdc59ac4e8f",
+    "content-hash": "26dd3bf1687a844ff38b5270d8fc9a02",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1760,16 +1760,16 @@
         },
         {
             "name": "figuren-theater/ft-site-editing",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-site-editing.git",
-                "reference": "9c90b90f8d1ca52ce632ccb02669ed2f2a26aaf3"
+                "reference": "74e167c941608babd21c3cdf0f3378744ab44e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/9c90b90f8d1ca52ce632ccb02669ed2f2a26aaf3",
-                "reference": "9c90b90f8d1ca52ce632ccb02669ed2f2a26aaf3",
+                "url": "https://api.github.com/repos/figuren-theater/ft-site-editing/zipball/74e167c941608babd21c3cdf0f3378744ab44e8a",
+                "reference": "74e167c941608babd21c3cdf0f3378744ab44e8a",
                 "shasum": ""
             },
             "require": {
@@ -1793,7 +1793,7 @@
             },
             "require-dev": {
                 "figuren-theater/code-quality": "*",
-                "wpackagist-plugin/gutenberg": "^17.7"
+                "wpackagist-plugin/gutenberg": "^19.4"
             },
             "type": "wordpress-muplugin",
             "extra": {
@@ -1871,7 +1871,7 @@
                 "issues": "https://github.com/figuren-theater/ft-site-editing/issues",
                 "source": "https://github.com/figuren-theater/ft-site-editing"
             },
-            "time": "2024-02-23T01:08:00+00:00"
+            "time": "2024-10-25T16:43:02+00:00"
         },
         {
             "name": "figuren-theater/ft-theater",
@@ -3435,15 +3435,15 @@
         },
         {
             "name": "wpackagist-plugin/block-catalog",
-            "version": "1.5.3",
+            "version": "1.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-catalog/",
-                "reference": "tags/1.5.3"
+                "reference": "tags/1.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-catalog.1.5.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/block-catalog.1.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3453,15 +3453,15 @@
         },
         {
             "name": "wpackagist-plugin/block-visibility",
-            "version": "3.3.0",
+            "version": "3.6.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/block-visibility/",
-                "reference": "tags/3.3.0"
+                "reference": "tags/3.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/block-visibility.3.3.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/block-visibility.3.6.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3741,15 +3741,15 @@
         },
         {
             "name": "wpackagist-plugin/icon-block",
-            "version": "1.7.0",
+            "version": "1.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/icon-block/",
-                "reference": "tags/1.7.0"
+                "reference": "tags/1.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/icon-block.1.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/icon-block.1.9.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3759,15 +3759,15 @@
         },
         {
             "name": "wpackagist-plugin/image-source-control-isc",
-            "version": "2.20.1",
+            "version": "2.28.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/image-source-control-isc/",
-                "reference": "tags/2.20.1"
+                "reference": "tags/2.28.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.20.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/image-source-control-isc.2.28.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -3993,15 +3993,15 @@
         },
         {
             "name": "wpackagist-plugin/social-sharing-block",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/social-sharing-block/",
-                "reference": "tags/1.0.0"
+                "reference": "tags/1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.1.0.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/social-sharing-block.1.2.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4083,15 +4083,15 @@
         },
         {
             "name": "wpackagist-plugin/todo-block",
-            "version": "1.0.7",
+            "version": "1.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/todo-block/",
-                "reference": "tags/1.0.7"
+                "reference": "tags/1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/todo-block.1.0.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/todo-block.1.1.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
