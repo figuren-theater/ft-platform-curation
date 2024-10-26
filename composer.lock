@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb4b569e10ef5114fd23d7cba69e4342",
+    "content-hash": "9c8039db0afcec7a09cddfc73bcdbb48",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1875,35 +1875,42 @@
         },
         {
             "name": "figuren-theater/ft-theater",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-theater.git",
-                "reference": "6385309b86f5236584ff24c033ef60cd270240f0"
+                "reference": "9c06c89805d3a4d068579a26e918b034dfc97da4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-theater/zipball/6385309b86f5236584ff24c033ef60cd270240f0",
-                "reference": "6385309b86f5236584ff24c033ef60cd270240f0",
+                "url": "https://api.github.com/repos/figuren-theater/ft-theater/zipball/9c06c89805d3a4d068579a26e918b034dfc97da4",
+                "reference": "9c06c89805d3a4d068579a26e918b034dfc97da4",
                 "shasum": ""
             },
             "require": {
-                "figuren-theater/label-printing": "0.2.0"
+                "figuren-theater/label-printing": "0.3.5",
+                "figuren-theater/theater-production-blocks": "0.2.0",
+                "figuren-theater/theater-production-subsites": "^0.1.1",
+                "wpackagist-plugin/gatherpress": "*"
             },
             "require-dev": {
-                "figuren-theater/code-quality": "*"
+                "figuren-theater/code-quality": "^1.1"
             },
             "type": "wordpress-muplugin",
             "extra": {
                 "altis": {
                     "install-overrides": [
-                        "figuren-theater/label-printing"
+                        "figuren-theater/label-printing",
+                        "figuren-theater/theater-production-blocks",
+                        "figuren-theater/theater-production-subsites"
                     ]
                 }
             },
             "autoload": {
                 "files": [
                     "inc/label-printing/namespace.php",
+                    "inc/production-blocks/namespace.php",
+                    "inc/production-subsites/namespace.php",
                     "inc/namespace.php"
                 ],
                 "classmap": [
@@ -1937,7 +1944,7 @@
                 "issues": "https://github.com/figuren-theater/ft-theater/issues",
                 "source": "https://github.com/figuren-theater/ft-theater"
             },
-            "time": "2023-10-15T11:19:33+00:00"
+            "time": "2024-10-25T16:34:19+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
@@ -2190,16 +2197,16 @@
         },
         {
             "name": "figuren-theater/label-printing",
-            "version": "0.2.0",
+            "version": "0.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/label-printing.git",
-                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132"
+                "reference": "d9a32865908afb803c4a2550a903f607a6cb65e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/label-printing/zipball/ab4cd969776e5412486de6e358a86ffdeba68132",
-                "reference": "ab4cd969776e5412486de6e358a86ffdeba68132",
+                "url": "https://api.github.com/repos/figuren-theater/label-printing/zipball/d9a32865908afb803c4a2550a903f607a6cb65e4",
+                "reference": "d9a32865908afb803c4a2550a903f607a6cb65e4",
                 "shasum": ""
             },
             "require-dev": {
@@ -2246,7 +2253,130 @@
                 "issues": "https://github.com/figuren-theater/label-printing/issues",
                 "source": "https://github.com/figuren-theater/label-printing"
             },
-            "time": "2023-10-13T10:38:09+00:00"
+            "time": "2024-05-29T11:10:34+00:00"
+        },
+        {
+            "name": "figuren-theater/theater-production-blocks",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/figuren-theater/theater-production-blocks.git",
+                "reference": "8359e35a909d84adf541a3e7b59a0ae072ca467d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/theater-production-blocks/zipball/8359e35a909d84adf541a3e7b59a0ae072ca467d",
+                "reference": "8359e35a909d84adf541a3e7b59a0ae072ca467d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
+            "suggest": {
+                "wpackagist-plugin/theater": "Even this plugin can be used standalone, it will be nicer & easier together with the WordPress 'Theater' plugin."
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "files": [
+                    "inc/block-loading/namespace.php",
+                    "inc/registration/namespace.php",
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "figuren.theater",
+                    "email": "info@figuren.theater"
+                },
+                {
+                    "name": "Carsten Bach",
+                    "email": "mail@carsten-bach.de",
+                    "homepage": "https://carsten-bach.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WordPress blocks for theater productions to be used with the Site- and Block-Editor.",
+            "homepage": "https://websites.fuer.figuren.theater",
+            "keywords": [
+                "blocks",
+                "gutenberg",
+                "theater",
+                "wordpress",
+                "wordpress-plugin"
+            ],
+            "support": {
+                "email": "info@figuren.theater",
+                "issues": "https://github.com/figuren-theater/theater-production-blocks/issues",
+                "source": "https://github.com/figuren-theater/theater-production-blocks"
+            },
+            "time": "2024-02-14T23:50:27+00:00"
+        },
+        {
+            "name": "figuren-theater/theater-production-subsites",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/figuren-theater/theater-production-subsites.git",
+                "reference": "e5cf9a94cde3e7e32d9e8ae6cfc951aa8b38a6b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/figuren-theater/theater-production-subsites/zipball/e5cf9a94cde3e7e32d9e8ae6cfc951aa8b38a6b5",
+                "reference": "e5cf9a94cde3e7e32d9e8ae6cfc951aa8b38a6b5",
+                "shasum": ""
+            },
+            "require-dev": {
+                "figuren-theater/code-quality": "*"
+            },
+            "type": "wordpress-muplugin",
+            "extra": {
+                "altis": {
+                    "install-overrides": []
+                }
+            },
+            "autoload": {
+                "files": [
+                    "inc/namespace.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "figuren.theater",
+                    "email": "info@figuren.theater"
+                },
+                {
+                    "name": "Carsten Bach",
+                    "email": "mail@carsten-bach.de",
+                    "homepage": "https://carsten-bach.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "... like the figuren.theater WordPress Multisite network.",
+            "homepage": "https://websites.fuer.figuren.theater",
+            "keywords": [
+                "wordpress",
+                "wordpress-muplugin"
+            ],
+            "support": {
+                "email": "info@figuren.theater",
+                "issues": "https://github.com/figuren-theater/theater-production-subsites/issues",
+                "source": "https://github.com/figuren-theater/theater-production-subsites"
+            },
+            "time": "2024-02-29T01:35:44+00:00"
         },
         {
             "name": "figuren-theater/twentytwentytwo-ft-core",
@@ -3911,6 +4041,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/format-media-titles/"
+        },
+        {
+            "name": "wpackagist-plugin/gatherpress",
+            "version": "0.31.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gatherpress/",
+                "reference": "tags/0.31.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gatherpress.0.31.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gatherpress/"
         },
         {
             "name": "wpackagist-plugin/heartbeat-control",
