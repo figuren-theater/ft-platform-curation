@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26dd3bf1687a844ff38b5270d8fc9a02",
+    "content-hash": "0629f0f318b0b45cba410880c8509232",
     "packages": [
         {
             "name": "10up/distributor",
@@ -839,27 +839,27 @@
         },
         {
             "name": "figuren-theater/ft-maintenance",
-            "version": "1.3.1",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-maintenance.git",
-                "reference": "db51393fb4e3b87c1297b8cfda5eaaca5727fe8a"
+                "reference": "70f31d2449f1f2a11163306c5e40f08440fcd01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/db51393fb4e3b87c1297b8cfda5eaaca5727fe8a",
-                "reference": "db51393fb4e3b87c1297b8cfda5eaaca5727fe8a",
+                "url": "https://api.github.com/repos/figuren-theater/ft-maintenance/zipball/70f31d2449f1f2a11163306c5e40f08440fcd01b",
+                "reference": "70f31d2449f1f2a11163306c5e40f08440fcd01b",
                 "shasum": ""
             },
             "require": {
                 "devgeniem/wp-cron-runner": "1.0.3",
                 "figuren-theater/ft-options": "*",
-                "johnbillion/query-monitor": "3.15.0",
-                "johnbillion/wp-crontrol": "1.16.1",
+                "johnbillion/query-monitor": "3.16.4",
+                "johnbillion/wp-crontrol": "1.17.0",
                 "koodimonni/composer-dropin-installer": "1.4",
                 "php": ">=7.1",
                 "pixelstudio/wp-sync-db": "1.7.1",
-                "wpackagist-plugin/multisite-enhancements": "1.6.1",
+                "wpackagist-plugin/multisite-enhancements": "1.7.1",
                 "wpackagist-plugin/wp-db-backup": "2.5.2"
             },
             "require-dev": {
@@ -930,7 +930,7 @@
                 "issues": "https://github.com/figuren-theater/ft-maintenance/issues",
                 "source": "https://github.com/figuren-theater/ft-maintenance"
             },
-            "time": "2024-02-23T01:46:20+00:00"
+            "time": "2024-10-25T16:40:14+00:00"
         },
         {
             "name": "figuren-theater/ft-media",
@@ -2775,16 +2775,16 @@
         },
         {
             "name": "johnbillion/query-monitor",
-            "version": "3.15.0",
+            "version": "3.16.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/query-monitor.git",
-                "reference": "c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b"
+                "reference": "a876a2f32236123b09b71fe2d79ba2a5a67b0147"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/query-monitor/zipball/c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b",
-                "reference": "c33b82b1d2281722a0dc49c7c5cc6869b3fcd23b",
+                "url": "https://api.github.com/repos/johnbillion/query-monitor/zipball/a876a2f32236123b09b71fe2d79ba2a5a67b0147",
+                "reference": "a876a2f32236123b09b71fe2d79ba2a5a67b0147",
                 "shasum": ""
             },
             "require": {
@@ -2797,7 +2797,6 @@
                 "codeception/module-webdriver": "^1.0",
                 "codeception/util-universalframework": "^1.0",
                 "dealerdirect/phpcodesniffer-composer-installer": "0.7.2",
-                "ergebnis/composer-normalize": "^2",
                 "johnbillion/plugin-infrastructure": "dev-trunk",
                 "lucatume/wp-browser": "3.2.1",
                 "phpcompatibility/phpcompatibility-wp": "2.1.4",
@@ -2806,7 +2805,7 @@
                 "roots/wordpress-core-installer": "1.100.0",
                 "roots/wordpress-full": "*",
                 "squizlabs/php_codesniffer": "3.7.1",
-                "szepeviktor/phpstan-wordpress": "1.3.0",
+                "szepeviktor/phpstan-wordpress": "1.3.5",
                 "wp-coding-standards/wpcs": "2.3.0"
             },
             "type": "wordpress-plugin",
@@ -2843,20 +2842,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-10T18:27:20+00:00"
+            "time": "2024-07-25T10:21:05+00:00"
         },
         {
             "name": "johnbillion/wp-crontrol",
-            "version": "1.16.1",
+            "version": "1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnbillion/wp-crontrol.git",
-                "reference": "d0d1b118d77d34ffc414d601bd633f7b629549de"
+                "reference": "b291a5d65aeb4ba17c88e5c4bb2f5da8943c9b89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnbillion/wp-crontrol/zipball/d0d1b118d77d34ffc414d601bd633f7b629549de",
-                "reference": "d0d1b118d77d34ffc414d601bd633f7b629549de",
+                "url": "https://api.github.com/repos/johnbillion/wp-crontrol/zipball/b291a5d65aeb4ba17c88e5c4bb2f5da8943c9b89",
+                "reference": "b291a5d65aeb4ba17c88e5c4bb2f5da8943c9b89",
                 "shasum": ""
             },
             "require": {
@@ -2865,22 +2864,22 @@
             },
             "require-dev": {
                 "codeception/module-asserts": "^1.0",
-                "codeception/module-filesystem": "^1.0",
+                "codeception/module-db": "^1.0",
                 "codeception/module-webdriver": "^1.0",
                 "codeception/util-universalframework": "^1.0",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "lucatume/wp-browser": "^3.0",
-                "phpcompatibility/phpcompatibility-wp": "2.1.2",
+                "johnbillion/plugin-infrastructure": "dev-trunk",
+                "lucatume/wp-browser": "3.2.1",
+                "phpcompatibility/phpcompatibility-wp": "2.1.4",
                 "phpstan/phpstan": "^1.7",
-                "phpunit/phpunit": "^9.0",
-                "roots/wordpress-core-installer": "^1.0.0",
+                "roots/wordpress-core-installer": "1.100.0",
                 "roots/wordpress-full": "*",
-                "szepeviktor/phpstan-wordpress": "^1.0",
+                "szepeviktor/phpstan-wordpress": "1.3.4",
                 "wp-coding-standards/wpcs": "2.3.0"
             },
             "type": "wordpress-plugin",
             "extra": {
-                "wordpress-install-dir": "tests/wordpress"
+                "wordpress-install-dir": "vendor/wordpress/wordpress"
             },
             "autoload": {
                 "classmap": [
@@ -2901,8 +2900,8 @@
                     "homepage": "http://scompt.com/"
                 }
             ],
-            "description": "WP Crontrol lets you view and control what's happening in the WP-Cron system.",
-            "homepage": "https://github.com/johnbillion/wp-crontrol/",
+            "description": "Take control of the cron events on your WordPress website",
+            "homepage": "https://wp-crontrol.com",
             "support": {
                 "forum": "https://wordpress.org/support/plugin/wp-crontrol",
                 "issues": "https://github.com/johnbillion/wp-crontrol/issues",
@@ -2914,7 +2913,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-16T22:50:41+00:00"
+            "time": "2024-07-15T13:58:33+00:00"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -3849,15 +3848,15 @@
         },
         {
             "name": "wpackagist-plugin/multisite-enhancements",
-            "version": "1.6.1",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/multisite-enhancements/",
-                "reference": "tags/1.6.1"
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/multisite-enhancements.1.6.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/multisite-enhancements.1.7.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
