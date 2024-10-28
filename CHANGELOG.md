@@ -2,7 +2,47 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.1...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.0...HEAD)
+
+## [0.3.0](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.1...0.3.0) - 2024-10-28
+
+### 🚀 Added
+
+- Remove explicit 'repositories' entry for ft-network-block-patterns ([#56](https://github.com/figuren-theater/ft-platform-collection/pull/56))
+
+### Dependency Updates & Maintenance
+
+- Bump figuren-theater/ft-theater from 0.1.1 to 0.2.0 ([#90](https://github.com/figuren-theater/ft-platform-collection/pull/90))
+- Bump figuren-theater/ft-data from 1.0.32 to 1.0.34 ([#91](https://github.com/figuren-theater/ft-platform-collection/pull/91))
+- Bump figuren-theater/ft-maintenance from 1.3.1 to 1.4.0 ([#92](https://github.com/figuren-theater/ft-platform-collection/pull/92))
+- Bump figuren-theater/ft-site-editing from 1.6.0 to 1.7.0 ([#89](https://github.com/figuren-theater/ft-platform-collection/pull/89))
+- Bump figuren-theater/ft-media from 1.3.0 to 1.3.1 ([#88](https://github.com/figuren-theater/ft-platform-collection/pull/88))
+- Bump figuren-theater/ft-themes from 1.3.0 to 1.4.0 ([#86](https://github.com/figuren-theater/ft-platform-collection/pull/86))
+- Bump figuren-theater/ft-theming from 1.2.0 to 1.2.1 ([#85](https://github.com/figuren-theater/ft-platform-collection/pull/85))
+- Bump figuren-theater/ft-privacy from 1.3.0 to 1.4.0 ([#87](https://github.com/figuren-theater/ft-platform-collection/pull/87))
+- Bump figuren-theater/ft-performance from 1.4.0 to 1.5.0 ([#82](https://github.com/figuren-theater/ft-platform-collection/pull/82))
+- Bump figuren-theater/ft-interactive from 1.1.1 to 1.2.0 ([#81](https://github.com/figuren-theater/ft-platform-collection/pull/81))
+- Bump figuren-theater/ft-security from 1.4.6 to 1.5.0 ([#80](https://github.com/figuren-theater/ft-platform-collection/pull/80))
+- Bump figuren-theater/ft-onboarding from 1.5.0 to 1.6.0 ([#78](https://github.com/figuren-theater/ft-platform-collection/pull/78))
+- Bump figuren-theater/code-quality from 1.1.1 to 1.2.1 ([#79](https://github.com/figuren-theater/ft-platform-collection/pull/79))
+- Bump figuren-theater/ft-seo from 1.1.0 to 1.2.0 ([#69](https://github.com/figuren-theater/ft-platform-collection/pull/69))
+- Bump johnpbloch/wordpress from 6.4.3 to 6.6.2 ([#77](https://github.com/figuren-theater/ft-platform-collection/pull/77))
+- Bump figuren-theater/ft-admin-ui from 1.2.0 to 1.2.1 ([#71](https://github.com/figuren-theater/ft-platform-collection/pull/71))
+- Bump figuren-theater/ft-onboarding from 1.4.0 to 1.5.0 ([#70](https://github.com/figuren-theater/ft-platform-collection/pull/70))
+- Bump figuren-theater/ft-media from 1.2.0 to 1.3.0 ([#68](https://github.com/figuren-theater/ft-platform-collection/pull/68))
+- Bump figuren-theater/ft-themes from 1.2.1 to 1.3.0 ([#66](https://github.com/figuren-theater/ft-platform-collection/pull/66))
+- Bump figuren-theater/ft-options from 1.2.3 to 1.2.5 ([#67](https://github.com/figuren-theater/ft-platform-collection/pull/67))
+- Bump figuren-theater/ft-performance from 1.3.2 to 1.4.0 ([#64](https://github.com/figuren-theater/ft-platform-collection/pull/64))
+- Bump figuren-theater/ft-maintenance from 1.3.0 to 1.3.1 ([#63](https://github.com/figuren-theater/ft-platform-collection/pull/63))
+- Bump figuren-theater/ft-site-editing from 1.5.0 to 1.6.0 ([#62](https://github.com/figuren-theater/ft-platform-collection/pull/62))
+- Bump figuren-theater/ft-routes from 1.1.4 to 1.1.5 ([#61](https://github.com/figuren-theater/ft-platform-collection/pull/61))
+- Bump figuren-theater/ft-security from 1.4.4 to 1.4.6 ([#60](https://github.com/figuren-theater/ft-platform-collection/pull/60))
+- Bump figuren-theater/ft-privacy from 1.2.3 to 1.3.0 ([#59](https://github.com/figuren-theater/ft-platform-collection/pull/59))
+- Bump figuren-theater/ft-theming from 1.1.2 to 1.2.0 ([#57](https://github.com/figuren-theater/ft-platform-collection/pull/57))
+- Bump figuren-theater/ft-maintenance from 1.2.2 to 1.3.0 ([#53](https://github.com/figuren-theater/ft-platform-collection/pull/53))
+- Bump figuren-theater/ft-routes from 1.1.3 to 1.1.4 ([#54](https://github.com/figuren-theater/ft-platform-collection/pull/54))
+- Bump figuren-theater/code-quality from 0.9.0 to 1.1.1 ([#55](https://github.com/figuren-theater/ft-platform-collection/pull/55))
+- Bump johnpbloch/wordpress from 6.3.2 to 6.4.3 ([#51](https://github.com/figuren-theater/ft-platform-collection/pull/51))
 
 ## [0.2.1](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.0...0.2.1) - 2023-10-22
 
