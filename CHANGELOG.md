@@ -2,7 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.0...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.1...HEAD)
+
+## [0.3.1](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.0...0.3.1) - 2024-11-09
+
+### Added
+
+- basic directories for oma.juliaraab.de (https://github.com/figuren-theater/juliaraab.de/pull/14) via https://github.com/figuren-theater/BLOGS
+
+### Bug-Fixes
+
+- from none-PR hotfixes in:
+  - https://github.com/figuren-theater/deprecated__plugins__v2 and
+  - https://github.com/figuren-theater/deprecated__Figuren_Theater__v2
+  
+
+### Dependency Updates & Maintenance
+
+- Bump figuren-theater/ft-privacy from 1.4.0 to 1.5.0 ([#93](https://github.com/figuren-theater/ft-platform-collection/pull/93))
 
 ## [0.3.0](https://github.com/figuren-theater/ft-platform-collection/compare/0.2.1...0.3.0) - 2024-10-28
 
