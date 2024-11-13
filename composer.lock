@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e6faf8e7571679d6da7a0f655daf398",
+    "content-hash": "747a0904298a026831cdaf8764b7c631",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1168,16 +1168,16 @@
         },
         {
             "name": "figuren-theater/ft-onboarding",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-onboarding.git",
-                "reference": "a3969458500855aa55a5d15aa422578bb6b0537d"
+                "reference": "b88ab2002d6715b6bed9d362a3a0a9893b65233a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-onboarding/zipball/a3969458500855aa55a5d15aa422578bb6b0537d",
-                "reference": "a3969458500855aa55a5d15aa422578bb6b0537d",
+                "url": "https://api.github.com/repos/figuren-theater/ft-onboarding/zipball/b88ab2002d6715b6bed9d362a3a0a9893b65233a",
+                "reference": "b88ab2002d6715b6bed9d362a3a0a9893b65233a",
                 "shasum": ""
             },
             "require": {
@@ -1255,7 +1255,7 @@
                 "issues": "https://github.com/figuren-theater/ft-onboarding/issues",
                 "source": "https://github.com/figuren-theater/ft-onboarding"
             },
-            "time": "2024-10-09T18:39:27+00:00"
+            "time": "2024-11-13T02:45:20+00:00"
         },
         {
             "name": "figuren-theater/ft-options",
