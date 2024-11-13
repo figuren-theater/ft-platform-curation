@@ -2,7 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.2...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.3...HEAD)
+
+## [0.3.3](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.2...0.3.3) - 2024-11-13
+
+### Added
+
+- Include updated oma.juliaraab.de | Default colors & typography, header & footer templates [#15](https://github.com/figuren-theater/juliaraab.de/pull/15)
+
+### :bug: Bugfixes
+
+- Bump figuren-theater/ft-theater from 0.2.0 to 0.2.1 ([#96](https://github.com/figuren-theater/ft-platform-collection/pull/96))
+- Bump figuren-theater/ft-onboarding from 1.6.0 to 1.6.1 ([#95](https://github.com/figuren-theater/ft-platform-collection/pull/95))
 
 ## [0.3.2](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.1...0.3.2) - 2024-11-10
 
