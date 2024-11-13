@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "747a0904298a026831cdaf8764b7c631",
+    "content-hash": "c7b207e47ee518c0058a389fbad60230",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1876,16 +1876,16 @@
         },
         {
             "name": "figuren-theater/ft-theater",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-theater.git",
-                "reference": "9c06c89805d3a4d068579a26e918b034dfc97da4"
+                "reference": "342ba7d3e9d8c6d6c560d2eb06feebfcec3bbc66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-theater/zipball/9c06c89805d3a4d068579a26e918b034dfc97da4",
-                "reference": "9c06c89805d3a4d068579a26e918b034dfc97da4",
+                "url": "https://api.github.com/repos/figuren-theater/ft-theater/zipball/342ba7d3e9d8c6d6c560d2eb06feebfcec3bbc66",
+                "reference": "342ba7d3e9d8c6d6c560d2eb06feebfcec3bbc66",
                 "shasum": ""
             },
             "require": {
@@ -1945,7 +1945,7 @@
                 "issues": "https://github.com/figuren-theater/ft-theater/issues",
                 "source": "https://github.com/figuren-theater/ft-theater"
             },
-            "time": "2024-10-25T16:34:19+00:00"
+            "time": "2024-11-13T02:29:14+00:00"
         },
         {
             "name": "figuren-theater/ft-themes",
