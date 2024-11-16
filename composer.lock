@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7b207e47ee518c0058a389fbad60230",
+    "content-hash": "469ce2b30b1f1243ff968cf3b5a409e7",
     "packages": [
         {
             "name": "10up/distributor",
@@ -1317,16 +1317,16 @@
         },
         {
             "name": "figuren-theater/ft-performance",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/ft-performance.git",
-                "reference": "ef90d8b60de0a0614b6467632e8f2f00530f3e69"
+                "reference": "c4153290cd25c657607431b689e41043751c66b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/ef90d8b60de0a0614b6467632e8f2f00530f3e69",
-                "reference": "ef90d8b60de0a0614b6467632e8f2f00530f3e69",
+                "url": "https://api.github.com/repos/figuren-theater/ft-performance/zipball/c4153290cd25c657607431b689e41043751c66b8",
+                "reference": "c4153290cd25c657607431b689e41043751c66b8",
                 "shasum": ""
             },
             "require": {
@@ -1407,7 +1407,7 @@
                 "issues": "https://github.com/figuren-theater/ft-performance/issues",
                 "source": "https://github.com/figuren-theater/ft-performance"
             },
-            "time": "2024-10-20T22:42:47+00:00"
+            "time": "2024-11-16T02:55:28+00:00"
         },
         {
             "name": "figuren-theater/ft-privacy",
@@ -4315,15 +4315,15 @@
         },
         {
             "name": "wpackagist-plugin/pwa",
-            "version": "0.8.1",
+            "version": "0.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pwa/",
-                "reference": "tags/0.8.1"
+                "reference": "tags/0.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pwa.0.8.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/pwa.0.8.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
