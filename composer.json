@@ -47,7 +47,7 @@
         "figuren-theater/ft-themes": "1.4.0",
         "figuren-theater/ft-theming": "1.2.1",
         "inpsyde/wp-translation-downloader": "2.5",
-        "johnpbloch/wordpress": "6.6.2"
+        "johnpbloch/wordpress": "6.7.0"
     },
     "require-dev": {
         "figuren-theater/code-quality": "*"
