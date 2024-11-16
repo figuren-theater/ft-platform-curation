@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.3...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.4...HEAD)
+
+## [0.3.4](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.3...0.3.4) - 2024-11-16
+
+### Added
+
+- Include updated oma.juliaraab.de | Updated templates https://github.com/figuren-theater/juliaraab.de/pull/16
+
+### Dependency Updates & Maintenance
+
+- Bump figuren-theater/ft-performance from 1.5.0 to 1.5.1 ([#98](https://github.com/figuren-theater/ft-platform-collection/pull/98))
 
 ## [0.3.3](https://github.com/figuren-theater/ft-platform-collection/compare/0.3.2...0.3.3) - 2024-11-13
 
